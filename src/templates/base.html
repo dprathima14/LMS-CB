@@ -1,0 +1,38 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="icon" href="../../../../favicon.ico"-->
+
+    <title>ChalkBox</title>
+  
+    {% include 'main_css.html' %}
+  </head>
+
+  <body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">ChalkBox <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+{% block navbar %}
+{% endblock %}
+</div>
+</nav>
+
+
+{% block content %}
+
+{% endblock %}
+
+{% include 'main_js.html' %}
+
+  </body>
+</html>

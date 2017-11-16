@@ -1,0 +1,9 @@
+{% extends "base_navbar.html" %}
+{% block content %}
+	 <h1>{{ title }}</h1>
+	{% for obj in object_list %}
+	<div>
+		<h3><a href=''>{{ obj.course_code }}</a> <small>{{ obj.course_title }}</small></h3>
+	</div>
+	{% endfor %}
+{% endblock %}
