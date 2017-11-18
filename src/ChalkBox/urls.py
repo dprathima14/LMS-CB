@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^$', login, { 'template_name': 'login.html'}, name="login"),
     url(r'^login/$', home, name="home"),
     url(r'^logout/$', logout, { 'template_name': 'logout.html'}, name="logout"),
-    url(r'^courses/', include("courses.urls", namespace='courses'), name="courses"),
+    url(r'^courses/', include("courses.urls", namespace="courses")),
     url(r'^help/$', help_page, name="help"),
 ] 
 

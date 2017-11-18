@@ -1,9 +1,12 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.views import login
 
 def home(request):
-	return redirect('/courses')
+	if request.user.is_authenticated:
+		return redirect('/courses')
+	else: 
+		return redirect(login)
 #def login_page(request):
 	#form = LoginForm(request.POST or None)
 #	context = {

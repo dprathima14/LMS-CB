@@ -1,6 +1,8 @@
 from django.db import models
 from django.conf import settings
 from assignments.models import Assignment
+from django.core.urlresolvers import reverse
+
 #User = settings.AUTH_USER_MODEL
 # Create your models here.
 class Course(models.Model):
@@ -13,4 +15,7 @@ class Course(models.Model):
     syllabus	= models.FileField(null=True, blank=True)
 
     def __str__(self):
-        return str(self.course_code)
+        return str(self.id)
+
+    def get_absolute_url(self):
+    	return reverse("courses:detail", kwargs={"id": self.id})
