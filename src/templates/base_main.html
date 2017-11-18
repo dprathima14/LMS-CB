@@ -1,37 +1,37 @@
 {% extends "base_navbar.html" %}
 {% block content %}        
 <div class="container-fluid">
-<div class="row">
-<nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-  <ul class="nav nav-pills flex-column">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Syllabus <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Assignments</a>
-    </li>
-  </ul>
-    {% if request.user.is_staff %}
-    <ul class="nav nav-pills flex-column">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Student List</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Submissions</a>
-      </li>
-    </ul>
-  {% endif %}
-  <ul class="nav nav-pills flex-column">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Grades</a>
-    </li>
-  </ul>
-</nav>
-<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-
-  {% block user_content %}
-  {% endblock %}
-</main>
-</div>
+  <div class="row">
+    <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Syllabus <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Assignments</a>
+        </li>
+      </ul>
+        {% if request.user.is_staff %}
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Student List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Submissions</a>
+          </li>
+        </ul>
+      {% endif %}
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Grades</a>
+        </li>
+      </ul>
+    </nav>
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+      {% block main_content %}
+      
+      {% endblock %}
+    </main>
+  </div>
 </div>
 {% endblock %}
