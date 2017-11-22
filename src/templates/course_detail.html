@@ -1,7 +1,14 @@
-{% extends "base_main.html" %}
-{% block main_content %}
-	 <h1>{{ title }}</h1>
-	<div>
-		<h3><a href=''>{{ instance.course_code }}</a> <small>{{ instance.course_title }}</small></h3>
-	</div>
+{% extends "base_navbar.html" %}
+{% block content %}        
+<div class="container-fluid">
+  <div class="row">
+	{% include "side_bar.html" with cid=instance.id %}
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+		<h1>{{ title }}</h1>
+		<div>
+			<h3><a href=''>{{ instance.course_code }}</a> <small>{{ instance.course_title }}</small></h3>
+		</div>      
+    </main>
+  </div>
+</div>
 {% endblock %}

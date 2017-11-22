@@ -2,7 +2,7 @@
 {% block navbar %}
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href='{% url "profile:user_profile" %}'>Profile <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'help' %}">Help <span class="sr-only">(current)</span></a>

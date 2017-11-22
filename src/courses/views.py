@@ -15,9 +15,9 @@ def course_home(request):
 	return render(request, "course_home.html", context)
 
 
-def course_detail(request, id=None):
+def course_detail(request, cid=None):
 	#form = LoginForm(request.POST or None)
-	instance = get_object_or_404(Course, id=id)
+	instance = get_object_or_404(Course, id=cid)
 	context = {
 		"title": instance.course_title,
 		"instance": instance,

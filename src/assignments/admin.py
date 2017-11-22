@@ -4,7 +4,7 @@ from django.contrib import admin
 from .models import Assignment
 
 class AssignmentModelAdmin(admin.ModelAdmin):
-	list_display = ["__str__", "title", "due_date", "points"]
+	list_display = ["__str__", "title", "due_date", "total_points"]
 	search_fields = ["title"]
 	ordering = ["due_date"]
 	class Meta:

@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^login/$', home, name="home"),
     url(r'^logout/$', logout, { 'template_name': 'logout.html'}, name="logout"),
     url(r'^courses/', include("courses.urls", namespace="courses")),
+    url(r'^profile/', include("accounts.urls", namespace="profile")),
     url(r'^help/$', help_page, name="help"),
 ] 
 

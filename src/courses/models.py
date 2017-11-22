@@ -18,4 +18,4 @@ class Course(models.Model):
         return str(self.id)
 
     def get_absolute_url(self):
-    	return reverse("courses:detail", kwargs={"id": self.id})
+    	return reverse("courses:detail", kwargs={"cid": self.id})

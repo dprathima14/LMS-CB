@@ -1,0 +1,15 @@
+{% extends "base_navbar.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+       {% include "side_bar.html" with cid=id %}
+       <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+	<h1>{{ title }}</h1>
+       	{% for obj in object_list %}
+			<h3><a href='{% url "courses:accounts:detail" cid=id user=obj.id %}'>{{ obj.username }}</a></h3>
+			<br />
+       	{% endfor %}
+       </main>
+  </div>
+</div>
+{% endblock %}
