@@ -1,0 +1,1299 @@
+diff --git a/Lib/__pycache__/__future__.cpython-36.pyc b/Lib/__pycache__/__future__.cpython-36.pyc
+index 824fca6..751f3eb 100644
+Binary files a/Lib/__pycache__/__future__.cpython-36.pyc and b/Lib/__pycache__/__future__.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/_bootlocale.cpython-36.pyc b/Lib/__pycache__/_bootlocale.cpython-36.pyc
+index b51fd49..5c52026 100644
+Binary files a/Lib/__pycache__/_bootlocale.cpython-36.pyc and b/Lib/__pycache__/_bootlocale.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/_collections_abc.cpython-36.pyc b/Lib/__pycache__/_collections_abc.cpython-36.pyc
+index e4834e5..995b13f 100644
+Binary files a/Lib/__pycache__/_collections_abc.cpython-36.pyc and b/Lib/__pycache__/_collections_abc.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/_weakrefset.cpython-36.pyc b/Lib/__pycache__/_weakrefset.cpython-36.pyc
+index 15dba24..da1cf02 100644
+Binary files a/Lib/__pycache__/_weakrefset.cpython-36.pyc and b/Lib/__pycache__/_weakrefset.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/abc.cpython-36.pyc b/Lib/__pycache__/abc.cpython-36.pyc
+index dc975ef..c20eaf6 100644
+Binary files a/Lib/__pycache__/abc.cpython-36.pyc and b/Lib/__pycache__/abc.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/base64.cpython-36.pyc b/Lib/__pycache__/base64.cpython-36.pyc
+index 5a18c33..2b21b70 100644
+Binary files a/Lib/__pycache__/base64.cpython-36.pyc and b/Lib/__pycache__/base64.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/bisect.cpython-36.pyc b/Lib/__pycache__/bisect.cpython-36.pyc
+index 8eca371..aa8e5df 100644
+Binary files a/Lib/__pycache__/bisect.cpython-36.pyc and b/Lib/__pycache__/bisect.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/codecs.cpython-36.pyc b/Lib/__pycache__/codecs.cpython-36.pyc
+index b292a68..8ed9ed9 100644
+Binary files a/Lib/__pycache__/codecs.cpython-36.pyc and b/Lib/__pycache__/codecs.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/copy.cpython-36.pyc b/Lib/__pycache__/copy.cpython-36.pyc
+index bb60106..7a4f241 100644
+Binary files a/Lib/__pycache__/copy.cpython-36.pyc and b/Lib/__pycache__/copy.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/copyreg.cpython-36.pyc b/Lib/__pycache__/copyreg.cpython-36.pyc
+index 92cdf8c..44beb0b 100644
+Binary files a/Lib/__pycache__/copyreg.cpython-36.pyc and b/Lib/__pycache__/copyreg.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/enum.cpython-36.pyc b/Lib/__pycache__/enum.cpython-36.pyc
+index 9e1ebf2..7e064be 100644
+Binary files a/Lib/__pycache__/enum.cpython-36.pyc and b/Lib/__pycache__/enum.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/fnmatch.cpython-36.pyc b/Lib/__pycache__/fnmatch.cpython-36.pyc
+index f4a6a60..c81203c 100644
+Binary files a/Lib/__pycache__/fnmatch.cpython-36.pyc and b/Lib/__pycache__/fnmatch.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/functools.cpython-36.pyc b/Lib/__pycache__/functools.cpython-36.pyc
+index b14fa8e..3f79c73 100644
+Binary files a/Lib/__pycache__/functools.cpython-36.pyc and b/Lib/__pycache__/functools.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/genericpath.cpython-36.pyc b/Lib/__pycache__/genericpath.cpython-36.pyc
+index b5a1b7a..83351c5 100644
+Binary files a/Lib/__pycache__/genericpath.cpython-36.pyc and b/Lib/__pycache__/genericpath.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/hashlib.cpython-36.pyc b/Lib/__pycache__/hashlib.cpython-36.pyc
+index e4dc46b..874b7d4 100644
+Binary files a/Lib/__pycache__/hashlib.cpython-36.pyc and b/Lib/__pycache__/hashlib.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/heapq.cpython-36.pyc b/Lib/__pycache__/heapq.cpython-36.pyc
+index 8220282..62b689c 100644
+Binary files a/Lib/__pycache__/heapq.cpython-36.pyc and b/Lib/__pycache__/heapq.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/hmac.cpython-36.pyc b/Lib/__pycache__/hmac.cpython-36.pyc
+index bc9852c..59575aa 100644
+Binary files a/Lib/__pycache__/hmac.cpython-36.pyc and b/Lib/__pycache__/hmac.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/io.cpython-36.pyc b/Lib/__pycache__/io.cpython-36.pyc
+index e4204e1..d4f22cc 100644
+Binary files a/Lib/__pycache__/io.cpython-36.pyc and b/Lib/__pycache__/io.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/keyword.cpython-36.pyc b/Lib/__pycache__/keyword.cpython-36.pyc
+index 34222a6..6ad318e 100644
+Binary files a/Lib/__pycache__/keyword.cpython-36.pyc and b/Lib/__pycache__/keyword.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/linecache.cpython-36.pyc b/Lib/__pycache__/linecache.cpython-36.pyc
+index f2add01..68ec6fb 100644
+Binary files a/Lib/__pycache__/linecache.cpython-36.pyc and b/Lib/__pycache__/linecache.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/locale.cpython-36.pyc b/Lib/__pycache__/locale.cpython-36.pyc
+index fa0c505..1e31d9e 100644
+Binary files a/Lib/__pycache__/locale.cpython-36.pyc and b/Lib/__pycache__/locale.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/ntpath.cpython-36.pyc b/Lib/__pycache__/ntpath.cpython-36.pyc
+index 25af456..7f39308 100644
+Binary files a/Lib/__pycache__/ntpath.cpython-36.pyc and b/Lib/__pycache__/ntpath.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/operator.cpython-36.pyc b/Lib/__pycache__/operator.cpython-36.pyc
+index 70bad77..1646f76 100644
+Binary files a/Lib/__pycache__/operator.cpython-36.pyc and b/Lib/__pycache__/operator.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/os.cpython-36.pyc b/Lib/__pycache__/os.cpython-36.pyc
+index 18de464..cc9a90c 100644
+Binary files a/Lib/__pycache__/os.cpython-36.pyc and b/Lib/__pycache__/os.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/posixpath.cpython-36.pyc b/Lib/__pycache__/posixpath.cpython-36.pyc
+index f581ea0..4035126 100644
+Binary files a/Lib/__pycache__/posixpath.cpython-36.pyc and b/Lib/__pycache__/posixpath.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/random.cpython-36.pyc b/Lib/__pycache__/random.cpython-36.pyc
+index 67ebd48..0dbc6fc 100644
+Binary files a/Lib/__pycache__/random.cpython-36.pyc and b/Lib/__pycache__/random.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/re.cpython-36.pyc b/Lib/__pycache__/re.cpython-36.pyc
+index 64895f9..6b058c0 100644
+Binary files a/Lib/__pycache__/re.cpython-36.pyc and b/Lib/__pycache__/re.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/reprlib.cpython-36.pyc b/Lib/__pycache__/reprlib.cpython-36.pyc
+index 43dcf92..e2a176d 100644
+Binary files a/Lib/__pycache__/reprlib.cpython-36.pyc and b/Lib/__pycache__/reprlib.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/shutil.cpython-36.pyc b/Lib/__pycache__/shutil.cpython-36.pyc
+index 278bae1..5ec8b0e 100644
+Binary files a/Lib/__pycache__/shutil.cpython-36.pyc and b/Lib/__pycache__/shutil.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/site.cpython-36.pyc b/Lib/__pycache__/site.cpython-36.pyc
+index ee1ea71..1a36478 100644
+Binary files a/Lib/__pycache__/site.cpython-36.pyc and b/Lib/__pycache__/site.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/sre_compile.cpython-36.pyc b/Lib/__pycache__/sre_compile.cpython-36.pyc
+index de32e2a..ad9d3dc 100644
+Binary files a/Lib/__pycache__/sre_compile.cpython-36.pyc and b/Lib/__pycache__/sre_compile.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/sre_constants.cpython-36.pyc b/Lib/__pycache__/sre_constants.cpython-36.pyc
+index 0b4390c..9c123f5 100644
+Binary files a/Lib/__pycache__/sre_constants.cpython-36.pyc and b/Lib/__pycache__/sre_constants.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/sre_parse.cpython-36.pyc b/Lib/__pycache__/sre_parse.cpython-36.pyc
+index 5409402..5696d94 100644
+Binary files a/Lib/__pycache__/sre_parse.cpython-36.pyc and b/Lib/__pycache__/sre_parse.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/stat.cpython-36.pyc b/Lib/__pycache__/stat.cpython-36.pyc
+index 4ebdb90..4624882 100644
+Binary files a/Lib/__pycache__/stat.cpython-36.pyc and b/Lib/__pycache__/stat.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/struct.cpython-36.pyc b/Lib/__pycache__/struct.cpython-36.pyc
+index ddc7127..73259a1 100644
+Binary files a/Lib/__pycache__/struct.cpython-36.pyc and b/Lib/__pycache__/struct.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/tempfile.cpython-36.pyc b/Lib/__pycache__/tempfile.cpython-36.pyc
+index 05b2849..7ee3158 100644
+Binary files a/Lib/__pycache__/tempfile.cpython-36.pyc and b/Lib/__pycache__/tempfile.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/token.cpython-36.pyc b/Lib/__pycache__/token.cpython-36.pyc
+index 5468b28..60e4e9b 100644
+Binary files a/Lib/__pycache__/token.cpython-36.pyc and b/Lib/__pycache__/token.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/tokenize.cpython-36.pyc b/Lib/__pycache__/tokenize.cpython-36.pyc
+index a8804ce..5b8d24c 100644
+Binary files a/Lib/__pycache__/tokenize.cpython-36.pyc and b/Lib/__pycache__/tokenize.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/types.cpython-36.pyc b/Lib/__pycache__/types.cpython-36.pyc
+index 4379178..ff14877 100644
+Binary files a/Lib/__pycache__/types.cpython-36.pyc and b/Lib/__pycache__/types.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/warnings.cpython-36.pyc b/Lib/__pycache__/warnings.cpython-36.pyc
+index 857f0e5..1b6ed76 100644
+Binary files a/Lib/__pycache__/warnings.cpython-36.pyc and b/Lib/__pycache__/warnings.cpython-36.pyc differ
+diff --git a/Lib/__pycache__/weakref.cpython-36.pyc b/Lib/__pycache__/weakref.cpython-36.pyc
+index 04dc7ac..1c1b75e 100644
+Binary files a/Lib/__pycache__/weakref.cpython-36.pyc and b/Lib/__pycache__/weakref.cpython-36.pyc differ
+diff --git a/Lib/collections/__pycache__/__init__.cpython-36.pyc b/Lib/collections/__pycache__/__init__.cpython-36.pyc
+index bc2d5e8..f5f4aa4 100644
+Binary files a/Lib/collections/__pycache__/__init__.cpython-36.pyc and b/Lib/collections/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/collections/__pycache__/abc.cpython-36.pyc b/Lib/collections/__pycache__/abc.cpython-36.pyc
+index b7ef1c8..8eb93ac 100644
+Binary files a/Lib/collections/__pycache__/abc.cpython-36.pyc and b/Lib/collections/__pycache__/abc.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/__init__.cpython-36.pyc b/Lib/encodings/__pycache__/__init__.cpython-36.pyc
+index bfeaea6..37085a1 100644
+Binary files a/Lib/encodings/__pycache__/__init__.cpython-36.pyc and b/Lib/encodings/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/aliases.cpython-36.pyc b/Lib/encodings/__pycache__/aliases.cpython-36.pyc
+index 32bc7f9..f0af6b5 100644
+Binary files a/Lib/encodings/__pycache__/aliases.cpython-36.pyc and b/Lib/encodings/__pycache__/aliases.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/cp1252.cpython-36.pyc b/Lib/encodings/__pycache__/cp1252.cpython-36.pyc
+index 774b449..915be47 100644
+Binary files a/Lib/encodings/__pycache__/cp1252.cpython-36.pyc and b/Lib/encodings/__pycache__/cp1252.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/idna.cpython-36.pyc b/Lib/encodings/__pycache__/idna.cpython-36.pyc
+index 3b57c8e..c49cf5d 100644
+Binary files a/Lib/encodings/__pycache__/idna.cpython-36.pyc and b/Lib/encodings/__pycache__/idna.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/latin_1.cpython-36.pyc b/Lib/encodings/__pycache__/latin_1.cpython-36.pyc
+index 4d88f76..8f86c29 100644
+Binary files a/Lib/encodings/__pycache__/latin_1.cpython-36.pyc and b/Lib/encodings/__pycache__/latin_1.cpython-36.pyc differ
+diff --git a/Lib/encodings/__pycache__/utf_8.cpython-36.pyc b/Lib/encodings/__pycache__/utf_8.cpython-36.pyc
+index 4573ac2..6c06a40 100644
+Binary files a/Lib/encodings/__pycache__/utf_8.cpython-36.pyc and b/Lib/encodings/__pycache__/utf_8.cpython-36.pyc differ
+diff --git a/Lib/importlib/__pycache__/__init__.cpython-36.pyc b/Lib/importlib/__pycache__/__init__.cpython-36.pyc
+index 52b3beb..0957b33 100644
+Binary files a/Lib/importlib/__pycache__/__init__.cpython-36.pyc and b/Lib/importlib/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/importlib/__pycache__/abc.cpython-36.pyc b/Lib/importlib/__pycache__/abc.cpython-36.pyc
+index fca4824..29b61d5 100644
+Binary files a/Lib/importlib/__pycache__/abc.cpython-36.pyc and b/Lib/importlib/__pycache__/abc.cpython-36.pyc differ
+diff --git a/Lib/importlib/__pycache__/machinery.cpython-36.pyc b/Lib/importlib/__pycache__/machinery.cpython-36.pyc
+index e9dd6fc..06faef4 100644
+Binary files a/Lib/importlib/__pycache__/machinery.cpython-36.pyc and b/Lib/importlib/__pycache__/machinery.cpython-36.pyc differ
+diff --git a/Lib/importlib/__pycache__/util.cpython-36.pyc b/Lib/importlib/__pycache__/util.cpython-36.pyc
+index c48e764..355d043 100644
+Binary files a/Lib/importlib/__pycache__/util.cpython-36.pyc and b/Lib/importlib/__pycache__/util.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-36.pyc
+index 806c06f..c33ddba 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/base.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/base.cpython-36.pyc
+index 2b9728f..ed600ae 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-36.pyc
+index 9877e3f..29aebab 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/compatibility.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/compatibility.cpython-36.pyc
+index 2cf36d6..a646154 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/compatibility.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/compatibility.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-36.pyc
+index 6cd05e8..1fa5969 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/helper.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/helper.cpython-36.pyc
+index 52fec5c..d2d18e8 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/helper.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/helper.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/layout.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/layout.cpython-36.pyc
+index a56764f..5285cae 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/layout.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/layout.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-36.pyc
+index 28de66c..61c4a82 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/crispy_forms/__pycache__/utils.cpython-36.pyc
+index a5d87eb..5c9dda1 100644
+Binary files a/Lib/site-packages/crispy_forms/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/crispy_forms/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-36.pyc
+index f3044de..d2be20c 100644
+Binary files a/Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-36.pyc b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-36.pyc
+index 2584c0b..c1ae1fd 100644
+Binary files a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-36.pyc and b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-36.pyc b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-36.pyc
+index b51acbb..de207e2 100644
+Binary files a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-36.pyc and b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-36.pyc b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-36.pyc
+index 746e60a..43160a4 100644
+Binary files a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-36.pyc and b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-36.pyc differ
+diff --git a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-36.pyc b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-36.pyc
+index d700b1e..026cd7b 100644
+Binary files a/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-36.pyc and b/Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/__pycache__/__init__.cpython-36.pyc
+index fe3b8db..579bf3a 100644
+Binary files a/Lib/site-packages/django/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/__pycache__/shortcuts.cpython-36.pyc b/Lib/site-packages/django/__pycache__/shortcuts.cpython-36.pyc
+index b6b1c34..07fa87a 100644
+Binary files a/Lib/site-packages/django/__pycache__/shortcuts.cpython-36.pyc and b/Lib/site-packages/django/__pycache__/shortcuts.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/apps/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/apps/__pycache__/__init__.cpython-36.pyc
+index 85c21a9..209f918 100644
+Binary files a/Lib/site-packages/django/apps/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/apps/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/apps/__pycache__/config.cpython-36.pyc b/Lib/site-packages/django/apps/__pycache__/config.cpython-36.pyc
+index 376747b..e244552 100644
+Binary files a/Lib/site-packages/django/apps/__pycache__/config.cpython-36.pyc and b/Lib/site-packages/django/apps/__pycache__/config.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/apps/__pycache__/registry.cpython-36.pyc b/Lib/site-packages/django/apps/__pycache__/registry.cpython-36.pyc
+index 973930e..515efd9 100644
+Binary files a/Lib/site-packages/django/apps/__pycache__/registry.cpython-36.pyc and b/Lib/site-packages/django/apps/__pycache__/registry.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/conf/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/conf/__pycache__/__init__.cpython-36.pyc
+index c4c7918..4d706bc 100644
+Binary files a/Lib/site-packages/django/conf/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/conf/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/conf/__pycache__/global_settings.cpython-36.pyc b/Lib/site-packages/django/conf/__pycache__/global_settings.cpython-36.pyc
+index 7a315ff..8272b0e 100644
+Binary files a/Lib/site-packages/django/conf/__pycache__/global_settings.cpython-36.pyc and b/Lib/site-packages/django/conf/__pycache__/global_settings.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/conf/locale/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/conf/locale/__pycache__/__init__.cpython-36.pyc
+index 40c5039..a756650 100644
+Binary files a/Lib/site-packages/django/conf/locale/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/conf/locale/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/conf/urls/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/conf/urls/__pycache__/__init__.cpython-36.pyc
+index 29d9941..66881a8 100644
+Binary files a/Lib/site-packages/django/conf/urls/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/conf/urls/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/conf/urls/__pycache__/static.cpython-36.pyc b/Lib/site-packages/django/conf/urls/__pycache__/static.cpython-36.pyc
+index a9160c7..4e7f8cf 100644
+Binary files a/Lib/site-packages/django/conf/urls/__pycache__/static.cpython-36.pyc and b/Lib/site-packages/django/conf/urls/__pycache__/static.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/__pycache__/__init__.cpython-36.pyc
+index b3b568c..bd3f72f 100644
+Binary files a/Lib/site-packages/django/contrib/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/__init__.cpython-36.pyc
+index 9a5bb5b..c9d634c 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/actions.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/actions.cpython-36.pyc
+index dfa27b0..a6474d5 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/actions.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/actions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/apps.cpython-36.pyc
+index 07e6bcb..b52e609 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/checks.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/checks.cpython-36.pyc
+index 1d6025c..e839070 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/checks.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/checks.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/decorators.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/decorators.cpython-36.pyc
+index bb523c9..b213084 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/decorators.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/decorators.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/exceptions.cpython-36.pyc
+index e6b7ee5..cb3d131 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/filters.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/filters.cpython-36.pyc
+index c9458df..2383484 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/filters.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/filters.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/helpers.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/helpers.cpython-36.pyc
+index f1aa4fd..f667e33 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/helpers.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/helpers.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/models.cpython-36.pyc
+index b9bb698..32ea6b0 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/options.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/options.cpython-36.pyc
+index e212ed3..0c3f211 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/options.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/options.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/sites.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/sites.cpython-36.pyc
+index 8766455..670bc7c 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/sites.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/sites.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/utils.cpython-36.pyc
+index e1be7ff..602121a 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/__pycache__/widgets.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/__pycache__/widgets.cpython-36.pyc
+index 27d7f89..73275bf 100644
+Binary files a/Lib/site-packages/django/contrib/admin/__pycache__/widgets.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/__pycache__/widgets.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0001_initial.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0001_initial.cpython-36.pyc
+index 22547eb..834ae84 100644
+Binary files a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0001_initial.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0002_logentry_remove_auto_add.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0002_logentry_remove_auto_add.cpython-36.pyc
+index 688d5d2..1b6f7c4 100644
+Binary files a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0002_logentry_remove_auto_add.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/0002_logentry_remove_auto_add.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/__init__.cpython-36.pyc
+index 174063b..b238344 100644
+Binary files a/Lib/site-packages/django/contrib/admin/migrations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/__init__.cpython-36.pyc
+index 72a5e9b..7af6a2b 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_list.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_list.cpython-36.pyc
+index 803552e..b34d1c3 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_list.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_list.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_modify.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_modify.cpython-36.pyc
+index 55b11e9..7ab4e25 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_modify.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_modify.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_static.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_static.cpython-36.pyc
+index 5a09606..e832291 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_static.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_static.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_urls.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_urls.cpython-36.pyc
+index 5cb8d13..98e9fff 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_urls.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/admin_urls.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/log.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/log.cpython-36.pyc
+index f6043a4..4a4cad6 100644
+Binary files a/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/log.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/templatetags/__pycache__/log.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/views/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/views/__pycache__/__init__.cpython-36.pyc
+index 4ddfc68..d947445 100644
+Binary files a/Lib/site-packages/django/contrib/admin/views/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/views/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/admin/views/__pycache__/main.cpython-36.pyc b/Lib/site-packages/django/contrib/admin/views/__pycache__/main.cpython-36.pyc
+index 63eaf7a..f07067b 100644
+Binary files a/Lib/site-packages/django/contrib/admin/views/__pycache__/main.cpython-36.pyc and b/Lib/site-packages/django/contrib/admin/views/__pycache__/main.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/__init__.cpython-36.pyc
+index 3475783..d51f1a7 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/admin.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/admin.cpython-36.pyc
+index 777cd46..ba9cec0 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/admin.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/admin.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/apps.cpython-36.pyc
+index dabed13..58ecc82 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/backends.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/backends.cpython-36.pyc
+index 5cc7275..8eeb3bd 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/backends.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/backends.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/base_user.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/base_user.cpython-36.pyc
+index b17f353..b58d067 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/base_user.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/base_user.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/checks.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/checks.cpython-36.pyc
+index ca3af2c..2a458dd 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/checks.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/checks.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/decorators.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/decorators.cpython-36.pyc
+index 4031c4b..cd1d6f9 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/decorators.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/decorators.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/forms.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/forms.cpython-36.pyc
+index 78e95b9..85f6651 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/forms.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/forms.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/hashers.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/hashers.cpython-36.pyc
+index 52c0a4e..503e30e 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/hashers.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/hashers.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/middleware.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/middleware.cpython-36.pyc
+index 7a2a5c9..163eef4 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/middleware.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/middleware.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/models.cpython-36.pyc
+index 765779a..f38feb2 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/password_validation.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/password_validation.cpython-36.pyc
+index a5bf8ca..af15037 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/password_validation.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/password_validation.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/signals.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/signals.cpython-36.pyc
+index 93c72e2..b89187b 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/signals.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/signals.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/tokens.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/tokens.cpython-36.pyc
+index 80aff60..dc3e329 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/tokens.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/tokens.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/validators.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/validators.cpython-36.pyc
+index ffa37fb..9596b98 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/validators.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/validators.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/__pycache__/views.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/__pycache__/views.cpython-36.pyc
+index 41d815a..90d9636 100644
+Binary files a/Lib/site-packages/django/contrib/auth/__pycache__/views.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/__pycache__/views.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/management/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/management/__pycache__/__init__.cpython-36.pyc
+index d84bc75..155d965 100644
+Binary files a/Lib/site-packages/django/contrib/auth/management/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/management/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0001_initial.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0001_initial.cpython-36.pyc
+index 8f84372..4f7b9bb 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0001_initial.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0002_alter_permission_name_max_length.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0002_alter_permission_name_max_length.cpython-36.pyc
+index cd36045..681fb8f 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0002_alter_permission_name_max_length.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0002_alter_permission_name_max_length.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0003_alter_user_email_max_length.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0003_alter_user_email_max_length.cpython-36.pyc
+index 2d70369..2b7e056 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0003_alter_user_email_max_length.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0003_alter_user_email_max_length.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0004_alter_user_username_opts.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0004_alter_user_username_opts.cpython-36.pyc
+index f07c399..5effcf8 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0004_alter_user_username_opts.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0004_alter_user_username_opts.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0005_alter_user_last_login_null.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0005_alter_user_last_login_null.cpython-36.pyc
+index 4ba8222..23ea091 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0005_alter_user_last_login_null.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0005_alter_user_last_login_null.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0006_require_contenttypes_0002.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0006_require_contenttypes_0002.cpython-36.pyc
+index 03be537..6ef24d7 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0006_require_contenttypes_0002.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0006_require_contenttypes_0002.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0007_alter_validators_add_error_messages.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0007_alter_validators_add_error_messages.cpython-36.pyc
+index 3f2a508..7054233 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0007_alter_validators_add_error_messages.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0007_alter_validators_add_error_messages.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0008_alter_user_username_max_length.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0008_alter_user_username_max_length.cpython-36.pyc
+index fd772ae..64e1ea2 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0008_alter_user_username_max_length.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/0008_alter_user_username_max_length.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/__init__.cpython-36.pyc
+index 5e40a9b..92e6a18 100644
+Binary files a/Lib/site-packages/django/contrib/auth/migrations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/auth/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/__init__.cpython-36.pyc
+index 0d33c16..366b2ed 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/admin.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/admin.cpython-36.pyc
+index 5ecd014..f481240 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/admin.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/admin.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/apps.cpython-36.pyc
+index f457231..f82a17b 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/checks.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/checks.cpython-36.pyc
+index d1731cb..4950eef 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/checks.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/checks.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/fields.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/fields.cpython-36.pyc
+index 34acb6a..e868c93 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/fields.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/fields.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/forms.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/forms.cpython-36.pyc
+index ef01dea..6e63391 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/forms.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/forms.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/models.cpython-36.pyc
+index fcb9dff..121b2fc 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/__pycache__/views.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/__pycache__/views.cpython-36.pyc
+index f50743b..6023d41 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/__pycache__/views.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/__pycache__/views.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/management/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/management/__pycache__/__init__.cpython-36.pyc
+index 6cbdd74..5478b03 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/management/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/management/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0001_initial.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0001_initial.cpython-36.pyc
+index 0631dcf..2840037 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0001_initial.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0002_remove_content_type_name.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0002_remove_content_type_name.cpython-36.pyc
+index e27c90a..b93df61 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0002_remove_content_type_name.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/0002_remove_content_type_name.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/__init__.cpython-36.pyc
+index ec5ee28..8e150e4 100644
+Binary files a/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/contenttypes/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/__pycache__/__init__.cpython-36.pyc
+index 2c1811e..0910031 100644
+Binary files a/Lib/site-packages/django/contrib/messages/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/__pycache__/api.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/__pycache__/api.cpython-36.pyc
+index 61bc69a..e26e0a6 100644
+Binary files a/Lib/site-packages/django/contrib/messages/__pycache__/api.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/__pycache__/api.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/__pycache__/apps.cpython-36.pyc
+index 6812c3d..488ed77 100644
+Binary files a/Lib/site-packages/django/contrib/messages/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/__pycache__/constants.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/__pycache__/constants.cpython-36.pyc
+index 5a5266a..361d831 100644
+Binary files a/Lib/site-packages/django/contrib/messages/__pycache__/constants.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/__pycache__/constants.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/__pycache__/middleware.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/__pycache__/middleware.cpython-36.pyc
+index a6f7733..115e11c 100644
+Binary files a/Lib/site-packages/django/contrib/messages/__pycache__/middleware.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/__pycache__/middleware.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/messages/storage/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/messages/storage/__pycache__/__init__.cpython-36.pyc
+index e4e231f..910d1a2 100644
+Binary files a/Lib/site-packages/django/contrib/messages/storage/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/messages/storage/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/__init__.cpython-36.pyc
+index ee83e79..754b1db 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/apps.cpython-36.pyc
+index 8634bf1..e966548 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/base_session.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/base_session.cpython-36.pyc
+index d78fa32..b8a111c 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/base_session.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/base_session.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/exceptions.cpython-36.pyc
+index 22b6078..5c8328e 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/middleware.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/middleware.cpython-36.pyc
+index 925e453..267c110 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/middleware.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/middleware.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/__pycache__/models.cpython-36.pyc
+index 233eb0d..7f72d1a 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/__init__.cpython-36.pyc
+index a9d10b4..2df05b8 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/base.cpython-36.pyc
+index 2ee4227..7eaf765 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/db.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/db.cpython-36.pyc
+index a227034..4a0966c 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/backends/__pycache__/db.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/backends/__pycache__/db.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/0001_initial.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/0001_initial.cpython-36.pyc
+index 75ab6b6..a74f018 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/0001_initial.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/__init__.cpython-36.pyc
+index 2b6ccd4..4a1e498 100644
+Binary files a/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/sessions/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sites/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/sites/__pycache__/__init__.cpython-36.pyc
+index b97e2e5..b52a65c 100644
+Binary files a/Lib/site-packages/django/contrib/sites/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/sites/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sites/__pycache__/requests.cpython-36.pyc b/Lib/site-packages/django/contrib/sites/__pycache__/requests.cpython-36.pyc
+index 14a2d69..b147e24 100644
+Binary files a/Lib/site-packages/django/contrib/sites/__pycache__/requests.cpython-36.pyc and b/Lib/site-packages/django/contrib/sites/__pycache__/requests.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/sites/__pycache__/shortcuts.cpython-36.pyc b/Lib/site-packages/django/contrib/sites/__pycache__/shortcuts.cpython-36.pyc
+index 82c0ce0..3a05f54 100644
+Binary files a/Lib/site-packages/django/contrib/sites/__pycache__/shortcuts.cpython-36.pyc and b/Lib/site-packages/django/contrib/sites/__pycache__/shortcuts.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/__init__.cpython-36.pyc
+index 35e7445..d47797c 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/apps.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/apps.cpython-36.pyc
+index 8f5ae2d..272c6e1 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/apps.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/apps.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/finders.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/finders.cpython-36.pyc
+index a633c75..9af2979 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/finders.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/finders.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/handlers.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/handlers.cpython-36.pyc
+index 659a330..7daf9bf 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/handlers.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/handlers.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/utils.cpython-36.pyc
+index 2f6f2f0..f7129da 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/__pycache__/views.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/__pycache__/views.cpython-36.pyc
+index 94c1652..c0223b1 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/__pycache__/views.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/__pycache__/views.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/management/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/management/__pycache__/__init__.cpython-36.pyc
+index d1a2443..08c3900 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/management/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/management/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/__init__.cpython-36.pyc
+index c7b295a..bf78d10 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/runserver.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/runserver.cpython-36.pyc
+index 99504f7..0ec73f8 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/runserver.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/management/commands/__pycache__/runserver.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/__init__.cpython-36.pyc
+index 607e7ae..e6a4d72 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/staticfiles.cpython-36.pyc b/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/staticfiles.cpython-36.pyc
+index 7236306..ce1c171 100644
+Binary files a/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/staticfiles.cpython-36.pyc and b/Lib/site-packages/django/contrib/staticfiles/templatetags/__pycache__/staticfiles.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/__init__.cpython-36.pyc
+index 1ea62f2..1141a82 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/exceptions.cpython-36.pyc
+index ae1e2be..8fd0afe 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/paginator.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/paginator.cpython-36.pyc
+index 893d02b..13e6704 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/paginator.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/paginator.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/signals.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/signals.cpython-36.pyc
+index 3ef35e8..bcb1cde 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/signals.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/signals.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/signing.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/signing.cpython-36.pyc
+index 45e9d32..8a18a94 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/signing.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/signing.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/validators.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/validators.cpython-36.pyc
+index e43e2fb..333eed5 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/validators.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/validators.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/__pycache__/wsgi.cpython-36.pyc b/Lib/site-packages/django/core/__pycache__/wsgi.cpython-36.pyc
+index c740726..6ec3b44 100644
+Binary files a/Lib/site-packages/django/core/__pycache__/wsgi.cpython-36.pyc and b/Lib/site-packages/django/core/__pycache__/wsgi.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/cache/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/cache/__pycache__/__init__.cpython-36.pyc
+index 858dd8b..787d82d 100644
+Binary files a/Lib/site-packages/django/core/cache/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/cache/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/cache/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/core/cache/__pycache__/utils.cpython-36.pyc
+index 336bf75..b24350b 100644
+Binary files a/Lib/site-packages/django/core/cache/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/core/cache/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-36.pyc
+index 7a69b15..a648909 100644
+Binary files a/Lib/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/cache/backends/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/cache/backends/__pycache__/base.cpython-36.pyc
+index 424bf91..21c0172 100644
+Binary files a/Lib/site-packages/django/core/cache/backends/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/cache/backends/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/__init__.cpython-36.pyc
+index 4fb5ff0..d0cb369 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/caches.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/caches.cpython-36.pyc
+index 9a04648..060d7e8 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/caches.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/caches.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/database.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/database.cpython-36.pyc
+index 9f3def6..a493e08 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/database.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/database.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/messages.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/messages.cpython-36.pyc
+index bb7d456..a2f9b2f 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/messages.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/messages.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/model_checks.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/model_checks.cpython-36.pyc
+index 1d16ffa..0c02f1c 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/model_checks.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/model_checks.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/registry.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/registry.cpython-36.pyc
+index 2c86801..5ab2e28 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/registry.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/registry.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/templates.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/templates.cpython-36.pyc
+index 55a92e4..a341406 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/templates.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/templates.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/urls.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/urls.cpython-36.pyc
+index 4d69e85..8360710 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/urls.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/urls.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/core/checks/__pycache__/utils.cpython-36.pyc
+index ecd44c4..3938f63 100644
+Binary files a/Lib/site-packages/django/core/checks/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/core/checks/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-36.pyc
+index 0c2b4bc..6302a95 100644
+Binary files a/Lib/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_10.cpython-36.pyc b/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_10.cpython-36.pyc
+index e4e4aee..68c3ac3 100644
+Binary files a/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_10.cpython-36.pyc and b/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_10.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_8_0.cpython-36.pyc b/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_8_0.cpython-36.pyc
+index 6d92337..5172e6e 100644
+Binary files a/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_8_0.cpython-36.pyc and b/Lib/site-packages/django/core/checks/compatibility/__pycache__/django_1_8_0.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/security/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/checks/security/__pycache__/__init__.cpython-36.pyc
+index a31a94e..394ed5b 100644
+Binary files a/Lib/site-packages/django/core/checks/security/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/checks/security/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/security/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/checks/security/__pycache__/base.cpython-36.pyc
+index 03208cc..03a0cfe 100644
+Binary files a/Lib/site-packages/django/core/checks/security/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/checks/security/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/security/__pycache__/csrf.cpython-36.pyc b/Lib/site-packages/django/core/checks/security/__pycache__/csrf.cpython-36.pyc
+index 9c281bd..a2156ad 100644
+Binary files a/Lib/site-packages/django/core/checks/security/__pycache__/csrf.cpython-36.pyc and b/Lib/site-packages/django/core/checks/security/__pycache__/csrf.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/checks/security/__pycache__/sessions.cpython-36.pyc b/Lib/site-packages/django/core/checks/security/__pycache__/sessions.cpython-36.pyc
+index c9998c8..8292f86 100644
+Binary files a/Lib/site-packages/django/core/checks/security/__pycache__/sessions.cpython-36.pyc and b/Lib/site-packages/django/core/checks/security/__pycache__/sessions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/__init__.cpython-36.pyc
+index f06ab72..4321cd1 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/base.cpython-36.pyc
+index e95a7e0..7d6b221 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/images.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/images.cpython-36.pyc
+index edbeae4..34c48b3 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/images.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/images.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/locks.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/locks.cpython-36.pyc
+index 7af94c3..009e0a2 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/locks.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/locks.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/move.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/move.cpython-36.pyc
+index 40f26ec..0273276 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/move.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/move.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/storage.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/storage.cpython-36.pyc
+index aaf40dc..c53f062 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/storage.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/storage.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/temp.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/temp.cpython-36.pyc
+index 7598966..7589dda 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/temp.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/temp.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/uploadedfile.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/uploadedfile.cpython-36.pyc
+index c5d63ad..1436eb4 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/uploadedfile.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/uploadedfile.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/uploadhandler.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/uploadhandler.cpython-36.pyc
+index 251ccad..4ff983d 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/uploadhandler.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/uploadhandler.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/files/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/core/files/__pycache__/utils.cpython-36.pyc
+index ea761c6..c6fda14 100644
+Binary files a/Lib/site-packages/django/core/files/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/core/files/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/handlers/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/handlers/__pycache__/__init__.cpython-36.pyc
+index 3b11947..d1200b9 100644
+Binary files a/Lib/site-packages/django/core/handlers/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/handlers/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/handlers/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/handlers/__pycache__/base.cpython-36.pyc
+index 89214d7..b93086b 100644
+Binary files a/Lib/site-packages/django/core/handlers/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/handlers/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/handlers/__pycache__/exception.cpython-36.pyc b/Lib/site-packages/django/core/handlers/__pycache__/exception.cpython-36.pyc
+index c184175..d538d0a 100644
+Binary files a/Lib/site-packages/django/core/handlers/__pycache__/exception.cpython-36.pyc and b/Lib/site-packages/django/core/handlers/__pycache__/exception.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/handlers/__pycache__/wsgi.cpython-36.pyc b/Lib/site-packages/django/core/handlers/__pycache__/wsgi.cpython-36.pyc
+index 9c9f790..e745d8d 100644
+Binary files a/Lib/site-packages/django/core/handlers/__pycache__/wsgi.cpython-36.pyc and b/Lib/site-packages/django/core/handlers/__pycache__/wsgi.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/mail/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/mail/__pycache__/__init__.cpython-36.pyc
+index 64b8cbe..d670e27 100644
+Binary files a/Lib/site-packages/django/core/mail/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/mail/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/mail/__pycache__/message.cpython-36.pyc b/Lib/site-packages/django/core/mail/__pycache__/message.cpython-36.pyc
+index e4d28ff..7066b51 100644
+Binary files a/Lib/site-packages/django/core/mail/__pycache__/message.cpython-36.pyc and b/Lib/site-packages/django/core/mail/__pycache__/message.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/mail/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/core/mail/__pycache__/utils.cpython-36.pyc
+index 98609ec..c539003 100644
+Binary files a/Lib/site-packages/django/core/mail/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/core/mail/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/management/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/management/__pycache__/__init__.cpython-36.pyc
+index 96030db..d53ea84 100644
+Binary files a/Lib/site-packages/django/core/management/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/management/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/management/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/management/__pycache__/base.cpython-36.pyc
+index e2ebf75..24d8b06 100644
+Binary files a/Lib/site-packages/django/core/management/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/management/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/management/__pycache__/color.cpython-36.pyc b/Lib/site-packages/django/core/management/__pycache__/color.cpython-36.pyc
+index f7bb071..fb2585a 100644
+Binary files a/Lib/site-packages/django/core/management/__pycache__/color.cpython-36.pyc and b/Lib/site-packages/django/core/management/__pycache__/color.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/management/commands/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/management/commands/__pycache__/__init__.cpython-36.pyc
+index 0b22aca..f0377c6 100644
+Binary files a/Lib/site-packages/django/core/management/commands/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/management/commands/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/management/commands/__pycache__/runserver.cpython-36.pyc b/Lib/site-packages/django/core/management/commands/__pycache__/runserver.cpython-36.pyc
+index 199cac5..e0bee0e 100644
+Binary files a/Lib/site-packages/django/core/management/commands/__pycache__/runserver.cpython-36.pyc and b/Lib/site-packages/django/core/management/commands/__pycache__/runserver.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/serializers/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/serializers/__pycache__/__init__.cpython-36.pyc
+index bcdbea1..1a74395 100644
+Binary files a/Lib/site-packages/django/core/serializers/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/serializers/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/serializers/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/core/serializers/__pycache__/base.cpython-36.pyc
+index 37632bb..00c3a20 100644
+Binary files a/Lib/site-packages/django/core/serializers/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/core/serializers/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/serializers/__pycache__/json.cpython-36.pyc b/Lib/site-packages/django/core/serializers/__pycache__/json.cpython-36.pyc
+index 1f108ce..ef91bad 100644
+Binary files a/Lib/site-packages/django/core/serializers/__pycache__/json.cpython-36.pyc and b/Lib/site-packages/django/core/serializers/__pycache__/json.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/serializers/__pycache__/python.cpython-36.pyc b/Lib/site-packages/django/core/serializers/__pycache__/python.cpython-36.pyc
+index 99b12b3..41d82b4 100644
+Binary files a/Lib/site-packages/django/core/serializers/__pycache__/python.cpython-36.pyc and b/Lib/site-packages/django/core/serializers/__pycache__/python.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/servers/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/core/servers/__pycache__/__init__.cpython-36.pyc
+index d140360..7118590 100644
+Binary files a/Lib/site-packages/django/core/servers/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/core/servers/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/core/servers/__pycache__/basehttp.cpython-36.pyc b/Lib/site-packages/django/core/servers/__pycache__/basehttp.cpython-36.pyc
+index 4840b5e..9ea5d47 100644
+Binary files a/Lib/site-packages/django/core/servers/__pycache__/basehttp.cpython-36.pyc and b/Lib/site-packages/django/core/servers/__pycache__/basehttp.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/__pycache__/__init__.cpython-36.pyc
+index 762033a..9dfc4c5 100644
+Binary files a/Lib/site-packages/django/db/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/__pycache__/transaction.cpython-36.pyc b/Lib/site-packages/django/db/__pycache__/transaction.cpython-36.pyc
+index cd2f4dd..c9210ca 100644
+Binary files a/Lib/site-packages/django/db/__pycache__/transaction.cpython-36.pyc and b/Lib/site-packages/django/db/__pycache__/transaction.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/db/__pycache__/utils.cpython-36.pyc
+index 01f9741..87abe6f 100644
+Binary files a/Lib/site-packages/django/db/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/db/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/backends/__pycache__/__init__.cpython-36.pyc
+index 8c3965d..cba3c21 100644
+Binary files a/Lib/site-packages/django/db/backends/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/backends/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/__pycache__/signals.cpython-36.pyc b/Lib/site-packages/django/db/backends/__pycache__/signals.cpython-36.pyc
+index 54664d2..5cd00d5 100644
+Binary files a/Lib/site-packages/django/db/backends/__pycache__/signals.cpython-36.pyc and b/Lib/site-packages/django/db/backends/__pycache__/signals.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/db/backends/__pycache__/utils.cpython-36.pyc
+index f916ad4..b945dfa 100644
+Binary files a/Lib/site-packages/django/db/backends/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/db/backends/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/__init__.cpython-36.pyc
+index 8d99d20..a121019 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/base.cpython-36.pyc
+index 03120dc..44ef003 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/client.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/client.cpython-36.pyc
+index 70656ed..b700d1d 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/client.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/client.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/creation.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/creation.cpython-36.pyc
+index 0717470..4f20c1e 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/creation.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/creation.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/features.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/features.cpython-36.pyc
+index 1440c7a..de12574 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/features.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/features.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/introspection.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/introspection.cpython-36.pyc
+index 5579150..0ff0441 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/introspection.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/introspection.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/operations.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/operations.cpython-36.pyc
+index ba08e3b..191457d 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/operations.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/operations.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/schema.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/schema.cpython-36.pyc
+index edd81f7..ce515ac 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/schema.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/schema.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/base/__pycache__/validation.cpython-36.pyc b/Lib/site-packages/django/db/backends/base/__pycache__/validation.cpython-36.pyc
+index 648283a..6c2a34f 100644
+Binary files a/Lib/site-packages/django/db/backends/base/__pycache__/validation.cpython-36.pyc and b/Lib/site-packages/django/db/backends/base/__pycache__/validation.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/__init__.cpython-36.pyc
+index 50e583a..4bd836c 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/base.cpython-36.pyc
+index 6443cfd..493bdbb 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/client.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/client.cpython-36.pyc
+index daf6223..fc6c677 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/client.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/client.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/creation.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/creation.cpython-36.pyc
+index 2729a79..081e21a 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/creation.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/creation.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/features.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/features.cpython-36.pyc
+index d1c4649..ab89b80 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/features.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/features.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/introspection.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/introspection.cpython-36.pyc
+index a7aa716..0849c8f 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/introspection.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/introspection.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/operations.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/operations.cpython-36.pyc
+index e227d26..d354c4e 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/operations.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/operations.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/schema.cpython-36.pyc b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/schema.cpython-36.pyc
+index e4df402..2ff31af 100644
+Binary files a/Lib/site-packages/django/db/backends/sqlite3/__pycache__/schema.cpython-36.pyc and b/Lib/site-packages/django/db/backends/sqlite3/__pycache__/schema.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/__init__.cpython-36.pyc
+index c59f4ef..8110170 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/exceptions.cpython-36.pyc
+index f68c3d1..56c2de6 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/executor.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/executor.cpython-36.pyc
+index 9497c22..ab72233 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/executor.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/executor.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/graph.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/graph.cpython-36.pyc
+index a1c2888..89bd72c 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/graph.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/graph.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/loader.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/loader.cpython-36.pyc
+index f5ceeb7..2ca04fa 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/loader.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/loader.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/migration.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/migration.cpython-36.pyc
+index eb54f55..2272595 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/migration.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/migration.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/recorder.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/recorder.cpython-36.pyc
+index 4e53416..f4449fa 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/recorder.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/recorder.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/__pycache__/state.cpython-36.pyc b/Lib/site-packages/django/db/migrations/__pycache__/state.cpython-36.pyc
+index 70b1b41..8dcdbab 100644
+Binary files a/Lib/site-packages/django/db/migrations/__pycache__/state.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/__pycache__/state.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/operations/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/migrations/operations/__pycache__/__init__.cpython-36.pyc
+index 88a2e14..c22685e 100644
+Binary files a/Lib/site-packages/django/db/migrations/operations/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/operations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/operations/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/db/migrations/operations/__pycache__/base.cpython-36.pyc
+index ac8f8ed..6ae4197 100644
+Binary files a/Lib/site-packages/django/db/migrations/operations/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/operations/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/operations/__pycache__/fields.cpython-36.pyc b/Lib/site-packages/django/db/migrations/operations/__pycache__/fields.cpython-36.pyc
+index ebe9c0e..759d62e 100644
+Binary files a/Lib/site-packages/django/db/migrations/operations/__pycache__/fields.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/operations/__pycache__/fields.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/operations/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/db/migrations/operations/__pycache__/models.cpython-36.pyc
+index 6c7c5be..3f5a14d 100644
+Binary files a/Lib/site-packages/django/db/migrations/operations/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/operations/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/migrations/operations/__pycache__/special.cpython-36.pyc b/Lib/site-packages/django/db/migrations/operations/__pycache__/special.cpython-36.pyc
+index 84a0ffa..1ee43e6 100644
+Binary files a/Lib/site-packages/django/db/migrations/operations/__pycache__/special.cpython-36.pyc and b/Lib/site-packages/django/db/migrations/operations/__pycache__/special.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/__init__.cpython-36.pyc
+index 7b10f31..320c561 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/aggregates.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/aggregates.cpython-36.pyc
+index 05bd571..a2c22da 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/aggregates.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/aggregates.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/base.cpython-36.pyc
+index d1c1fab..f1a27be 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/constants.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/constants.cpython-36.pyc
+index 8bd4c12..9df8037 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/constants.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/constants.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/deletion.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/deletion.cpython-36.pyc
+index 2d02ad7..2f8602b 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/deletion.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/deletion.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/expressions.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/expressions.cpython-36.pyc
+index c183b05..5685765 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/expressions.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/expressions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/indexes.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/indexes.cpython-36.pyc
+index d5cabc1..4e01310 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/indexes.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/indexes.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/lookups.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/lookups.cpython-36.pyc
+index 33177dd..1a2740c 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/lookups.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/lookups.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/manager.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/manager.cpython-36.pyc
+index 9a27099..34c5647 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/manager.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/manager.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/options.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/options.cpython-36.pyc
+index 95e41b6..9e64ba6 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/options.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/options.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/query.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/query.cpython-36.pyc
+index f68926d..fba4bb6 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/query.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/query.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/query_utils.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/query_utils.cpython-36.pyc
+index 6a25f9c..83e368b 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/query_utils.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/query_utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/signals.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/signals.cpython-36.pyc
+index 486814b..b70b751 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/signals.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/signals.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/db/models/__pycache__/utils.cpython-36.pyc
+index 02968be..1859f61 100644
+Binary files a/Lib/site-packages/django/db/models/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/db/models/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/__init__.cpython-36.pyc
+index 6d34ef9..64e33c7 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/files.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/files.cpython-36.pyc
+index 8b52c6c..030f790 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/files.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/files.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/proxy.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/proxy.cpython-36.pyc
+index 250987b..4ef00ce 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/proxy.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/proxy.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/related.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/related.cpython-36.pyc
+index 3ff1143..3a1673b 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/related.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/related.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/related_descriptors.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/related_descriptors.cpython-36.pyc
+index 1f0b9d5..441e56a 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/related_descriptors.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/related_descriptors.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/related_lookups.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/related_lookups.cpython-36.pyc
+index 8020c26..f04ce44 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/related_lookups.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/related_lookups.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/fields/__pycache__/reverse_related.cpython-36.pyc b/Lib/site-packages/django/db/models/fields/__pycache__/reverse_related.cpython-36.pyc
+index ede7b91..5477f51 100644
+Binary files a/Lib/site-packages/django/db/models/fields/__pycache__/reverse_related.cpython-36.pyc and b/Lib/site-packages/django/db/models/fields/__pycache__/reverse_related.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/functions/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/models/functions/__pycache__/__init__.cpython-36.pyc
+index e8336e0..d2f98b4 100644
+Binary files a/Lib/site-packages/django/db/models/functions/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/models/functions/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/functions/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/db/models/functions/__pycache__/base.cpython-36.pyc
+index 450376c..a3a0084 100644
+Binary files a/Lib/site-packages/django/db/models/functions/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/db/models/functions/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/functions/__pycache__/datetime.cpython-36.pyc b/Lib/site-packages/django/db/models/functions/__pycache__/datetime.cpython-36.pyc
+index 54e7463..06e15f7 100644
+Binary files a/Lib/site-packages/django/db/models/functions/__pycache__/datetime.cpython-36.pyc and b/Lib/site-packages/django/db/models/functions/__pycache__/datetime.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/__init__.cpython-36.pyc
+index 0a26179..79cc5f5 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/compiler.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/compiler.cpython-36.pyc
+index 795e26a..b93cd89 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/compiler.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/compiler.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/constants.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/constants.cpython-36.pyc
+index aba6d03..72dda72 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/constants.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/constants.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/datastructures.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/datastructures.cpython-36.pyc
+index 6c6e009..6cb49c1 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/datastructures.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/datastructures.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/query.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/query.cpython-36.pyc
+index a3f31c8..fce04a9 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/query.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/query.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/subqueries.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/subqueries.cpython-36.pyc
+index 22a5182..4ea8574 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/subqueries.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/subqueries.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/db/models/sql/__pycache__/where.cpython-36.pyc b/Lib/site-packages/django/db/models/sql/__pycache__/where.cpython-36.pyc
+index 6cddb45..00199de 100644
+Binary files a/Lib/site-packages/django/db/models/sql/__pycache__/where.cpython-36.pyc and b/Lib/site-packages/django/db/models/sql/__pycache__/where.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/dispatch/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/dispatch/__pycache__/__init__.cpython-36.pyc
+index c4e6f09..8b025a3 100644
+Binary files a/Lib/site-packages/django/dispatch/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/dispatch/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/dispatch/__pycache__/dispatcher.cpython-36.pyc b/Lib/site-packages/django/dispatch/__pycache__/dispatcher.cpython-36.pyc
+index c96de70..39ac229 100644
+Binary files a/Lib/site-packages/django/dispatch/__pycache__/dispatcher.cpython-36.pyc and b/Lib/site-packages/django/dispatch/__pycache__/dispatcher.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/__init__.cpython-36.pyc
+index 63bd4f8..e5ab190 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/boundfield.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/boundfield.cpython-36.pyc
+index b347aa4..6bb0e2b 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/boundfield.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/boundfield.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/fields.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/fields.cpython-36.pyc
+index c3afcac..9b725e0 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/fields.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/fields.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/forms.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/forms.cpython-36.pyc
+index 592e6b3..57a1252 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/forms.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/forms.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/formsets.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/formsets.cpython-36.pyc
+index 642c712..6cc8491 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/formsets.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/formsets.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/models.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/models.cpython-36.pyc
+index b017403..5e91fb5 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/models.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/models.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/renderers.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/renderers.cpython-36.pyc
+index 4e97932..9231144 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/renderers.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/renderers.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/utils.cpython-36.pyc
+index c09fa9e..7ee61c9 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/forms/__pycache__/widgets.cpython-36.pyc b/Lib/site-packages/django/forms/__pycache__/widgets.cpython-36.pyc
+index 63d19c8..0bd771d 100644
+Binary files a/Lib/site-packages/django/forms/__pycache__/widgets.cpython-36.pyc and b/Lib/site-packages/django/forms/__pycache__/widgets.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/http/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/http/__pycache__/__init__.cpython-36.pyc
+index 6aae482..499a59e 100644
+Binary files a/Lib/site-packages/django/http/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/http/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/http/__pycache__/cookie.cpython-36.pyc b/Lib/site-packages/django/http/__pycache__/cookie.cpython-36.pyc
+index 54c8941..88b0608 100644
+Binary files a/Lib/site-packages/django/http/__pycache__/cookie.cpython-36.pyc and b/Lib/site-packages/django/http/__pycache__/cookie.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/http/__pycache__/multipartparser.cpython-36.pyc b/Lib/site-packages/django/http/__pycache__/multipartparser.cpython-36.pyc
+index 10feb5e..de28657 100644
+Binary files a/Lib/site-packages/django/http/__pycache__/multipartparser.cpython-36.pyc and b/Lib/site-packages/django/http/__pycache__/multipartparser.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/http/__pycache__/request.cpython-36.pyc b/Lib/site-packages/django/http/__pycache__/request.cpython-36.pyc
+index 03a0ece..e849776 100644
+Binary files a/Lib/site-packages/django/http/__pycache__/request.cpython-36.pyc and b/Lib/site-packages/django/http/__pycache__/request.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/http/__pycache__/response.cpython-36.pyc b/Lib/site-packages/django/http/__pycache__/response.cpython-36.pyc
+index 2f45032..1287f22 100644
+Binary files a/Lib/site-packages/django/http/__pycache__/response.cpython-36.pyc and b/Lib/site-packages/django/http/__pycache__/response.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/__init__.cpython-36.pyc
+index 837ec56..f4dda79 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/cache.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/cache.cpython-36.pyc
+index 3ce034e..5792d19 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/cache.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/cache.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/clickjacking.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/clickjacking.cpython-36.pyc
+index 80a359c..9e3e216 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/clickjacking.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/clickjacking.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/common.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/common.cpython-36.pyc
+index f80e8a5..d953ef4 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/common.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/common.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/csrf.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/csrf.cpython-36.pyc
+index ef3d45b..5198eec 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/csrf.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/csrf.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/middleware/__pycache__/security.cpython-36.pyc b/Lib/site-packages/django/middleware/__pycache__/security.cpython-36.pyc
+index a47b572..f319153 100644
+Binary files a/Lib/site-packages/django/middleware/__pycache__/security.cpython-36.pyc and b/Lib/site-packages/django/middleware/__pycache__/security.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/__init__.cpython-36.pyc
+index 7217174..df18296 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/base.cpython-36.pyc
+index 332e412..c05a63d 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/context.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/context.cpython-36.pyc
+index 1f6ef9e..2a2fbf6 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/context.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/context.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/defaultfilters.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/defaultfilters.cpython-36.pyc
+index 15d7d38..6a003e2 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/defaultfilters.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/defaultfilters.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/defaulttags.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/defaulttags.cpython-36.pyc
+index f63c380..e14a4f1 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/defaulttags.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/defaulttags.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/engine.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/engine.cpython-36.pyc
+index 768c5f9..328cb40 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/engine.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/engine.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/exceptions.cpython-36.pyc
+index 5b52c7c..a6c16e8 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/library.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/library.cpython-36.pyc
+index 76fec1e..8391f26 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/library.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/library.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/loader.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/loader.cpython-36.pyc
+index 2a3ceb9..b4f9f13 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/loader.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/loader.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/loader_tags.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/loader_tags.cpython-36.pyc
+index 84f4094..54415b0 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/loader_tags.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/loader_tags.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/response.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/response.cpython-36.pyc
+index 37e87c4..06cd54c 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/response.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/response.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/smartif.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/smartif.cpython-36.pyc
+index f3940d4..f8df0d8 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/smartif.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/smartif.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/template/__pycache__/utils.cpython-36.pyc
+index e0ecaac..c78bec7 100644
+Binary files a/Lib/site-packages/django/template/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/template/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/backends/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/template/backends/__pycache__/__init__.cpython-36.pyc
+index 4169d3f..230dd2c 100644
+Binary files a/Lib/site-packages/django/template/backends/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/template/backends/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/backends/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/template/backends/__pycache__/base.cpython-36.pyc
+index f644055..f31ac7d 100644
+Binary files a/Lib/site-packages/django/template/backends/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/template/backends/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/backends/__pycache__/django.cpython-36.pyc b/Lib/site-packages/django/template/backends/__pycache__/django.cpython-36.pyc
+index 7bafd3b..cca1805 100644
+Binary files a/Lib/site-packages/django/template/backends/__pycache__/django.cpython-36.pyc and b/Lib/site-packages/django/template/backends/__pycache__/django.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/template/backends/__pycache__/jinja2.cpython-36.pyc b/Lib/site-packages/django/template/backends/__pycache__/jinja2.cpython-36.pyc
+index 6e11f59..45368dc 100644
+Binary files a/Lib/site-packages/django/template/backends/__pycache__/jinja2.cpython-36.pyc and b/Lib/site-packages/django/template/backends/__pycache__/jinja2.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/__init__.cpython-36.pyc
+index 3bcad6a..31fa286 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/cache.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/cache.cpython-36.pyc
+index 400bde3..4ffb55b 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/cache.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/cache.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/i18n.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/i18n.cpython-36.pyc
+index cded53a..09f4097 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/i18n.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/i18n.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/l10n.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/l10n.cpython-36.pyc
+index b9fbdec..cf13347 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/l10n.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/l10n.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/static.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/static.cpython-36.pyc
+index 05f091d..80ba46e 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/static.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/static.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/templatetags/__pycache__/tz.cpython-36.pyc b/Lib/site-packages/django/templatetags/__pycache__/tz.cpython-36.pyc
+index c7f37c3..74bf30c 100644
+Binary files a/Lib/site-packages/django/templatetags/__pycache__/tz.cpython-36.pyc and b/Lib/site-packages/django/templatetags/__pycache__/tz.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/urls/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/urls/__pycache__/__init__.cpython-36.pyc
+index e810f8d..3661305 100644
+Binary files a/Lib/site-packages/django/urls/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/urls/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/urls/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/urls/__pycache__/base.cpython-36.pyc
+index e17131a..9d770f6 100644
+Binary files a/Lib/site-packages/django/urls/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/urls/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/urls/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/django/urls/__pycache__/exceptions.cpython-36.pyc
+index e3e679a..db1d505 100644
+Binary files a/Lib/site-packages/django/urls/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/django/urls/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/urls/__pycache__/resolvers.cpython-36.pyc b/Lib/site-packages/django/urls/__pycache__/resolvers.cpython-36.pyc
+index b22b6ac..6fb2882 100644
+Binary files a/Lib/site-packages/django/urls/__pycache__/resolvers.cpython-36.pyc and b/Lib/site-packages/django/urls/__pycache__/resolvers.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/urls/__pycache__/utils.cpython-36.pyc b/Lib/site-packages/django/urls/__pycache__/utils.cpython-36.pyc
+index 49e429d..ce4f2f6 100644
+Binary files a/Lib/site-packages/django/urls/__pycache__/utils.cpython-36.pyc and b/Lib/site-packages/django/urls/__pycache__/utils.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/__init__.cpython-36.pyc
+index 46367af..da6b91e 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/_os.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/_os.cpython-36.pyc
+index b9b04d9..89c1373 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/_os.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/_os.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/autoreload.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/autoreload.cpython-36.pyc
+index a5ca4bc..7ec638d 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/autoreload.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/autoreload.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/baseconv.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/baseconv.cpython-36.pyc
+index 08b7866..385fa1c 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/baseconv.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/baseconv.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/cache.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/cache.cpython-36.pyc
+index 99b48f2..913e979 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/cache.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/cache.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/crypto.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/crypto.cpython-36.pyc
+index a994b94..33412e5 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/crypto.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/crypto.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/datastructures.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/datastructures.cpython-36.pyc
+index f00a8be..3716e7f 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/datastructures.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/datastructures.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/dateformat.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/dateformat.cpython-36.pyc
+index 9ce570f..bb8a7a9 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/dateformat.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/dateformat.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/dateparse.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/dateparse.cpython-36.pyc
+index 17ed7f6..998a522 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/dateparse.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/dateparse.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/dates.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/dates.cpython-36.pyc
+index 9b2d121..2b8af14 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/dates.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/dates.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/datetime_safe.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/datetime_safe.cpython-36.pyc
+index fe7d4cf..520933a 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/datetime_safe.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/datetime_safe.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/deconstruct.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/deconstruct.cpython-36.pyc
+index 4bb57dd..0dffde7 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/deconstruct.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/deconstruct.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/decorators.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/decorators.cpython-36.pyc
+index c0da6b8..f4e7939 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/decorators.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/decorators.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/deprecation.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/deprecation.cpython-36.pyc
+index 27a3ab7..1d15fb0 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/deprecation.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/deprecation.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/duration.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/duration.cpython-36.pyc
+index a24c6c1..0864485 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/duration.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/duration.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/encoding.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/encoding.cpython-36.pyc
+index 9ce2183..033b73a 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/encoding.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/encoding.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/formats.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/formats.cpython-36.pyc
+index 915dba8..5811341 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/formats.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/formats.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/functional.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/functional.cpython-36.pyc
+index 2553423..846b2ee 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/functional.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/functional.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/html.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/html.cpython-36.pyc
+index 570befd..3ef3e0e 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/html.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/html.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/html_parser.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/html_parser.cpython-36.pyc
+index dcadbca..044adce 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/html_parser.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/html_parser.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/http.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/http.cpython-36.pyc
+index 930ceb1..a421895 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/http.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/http.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/inspect.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/inspect.cpython-36.pyc
+index afa016a..6b79655 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/inspect.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/inspect.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/ipv6.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/ipv6.cpython-36.pyc
+index c4dfd79..8ba04fd 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/ipv6.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/ipv6.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/itercompat.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/itercompat.cpython-36.pyc
+index 03c2f12..8b6459d 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/itercompat.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/itercompat.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/log.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/log.cpython-36.pyc
+index 1387be7..f0da7ba 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/log.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/log.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/lorem_ipsum.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/lorem_ipsum.cpython-36.pyc
+index 06edcc4..5399cff 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/lorem_ipsum.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/lorem_ipsum.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/lru_cache.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/lru_cache.cpython-36.pyc
+index 279ac72..c209df9 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/lru_cache.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/lru_cache.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/module_loading.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/module_loading.cpython-36.pyc
+index de84a92..7df4a3c 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/module_loading.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/module_loading.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/numberformat.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/numberformat.cpython-36.pyc
+index 0f4589b..07980b9 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/numberformat.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/numberformat.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/regex_helper.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/regex_helper.cpython-36.pyc
+index 96a7d95..47439d8 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/regex_helper.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/regex_helper.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/safestring.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/safestring.cpython-36.pyc
+index 119d4b1..fc76f66 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/safestring.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/safestring.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/six.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/six.cpython-36.pyc
+index c991f5e..89f98e3 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/six.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/six.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/termcolors.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/termcolors.cpython-36.pyc
+index b862cd9..fa5d57a 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/termcolors.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/termcolors.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/text.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/text.cpython-36.pyc
+index 122fef4..9468aba 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/text.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/text.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/timesince.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/timesince.cpython-36.pyc
+index 36c0b78..bcd0f4f 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/timesince.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/timesince.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/timezone.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/timezone.cpython-36.pyc
+index 6b5ee68..4def668 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/timezone.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/timezone.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/tree.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/tree.cpython-36.pyc
+index faedfb4..ca984f1 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/tree.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/tree.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/__pycache__/version.cpython-36.pyc b/Lib/site-packages/django/utils/__pycache__/version.cpython-36.pyc
+index 1ce81bc..4bfa6e4 100644
+Binary files a/Lib/site-packages/django/utils/__pycache__/version.cpython-36.pyc and b/Lib/site-packages/django/utils/__pycache__/version.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/translation/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/utils/translation/__pycache__/__init__.cpython-36.pyc
+index 9e5afd1..c64b92e 100644
+Binary files a/Lib/site-packages/django/utils/translation/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/utils/translation/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/utils/translation/__pycache__/trans_real.cpython-36.pyc b/Lib/site-packages/django/utils/translation/__pycache__/trans_real.cpython-36.pyc
+index faefa7d..70e52d7 100644
+Binary files a/Lib/site-packages/django/utils/translation/__pycache__/trans_real.cpython-36.pyc and b/Lib/site-packages/django/utils/translation/__pycache__/trans_real.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/views/__pycache__/__init__.cpython-36.pyc
+index 80bbbad..0346c28 100644
+Binary files a/Lib/site-packages/django/views/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/views/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/__pycache__/debug.cpython-36.pyc b/Lib/site-packages/django/views/__pycache__/debug.cpython-36.pyc
+index bdff9b6..170c829 100644
+Binary files a/Lib/site-packages/django/views/__pycache__/debug.cpython-36.pyc and b/Lib/site-packages/django/views/__pycache__/debug.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/__pycache__/i18n.cpython-36.pyc b/Lib/site-packages/django/views/__pycache__/i18n.cpython-36.pyc
+index 55106b2..1f4bd84 100644
+Binary files a/Lib/site-packages/django/views/__pycache__/i18n.cpython-36.pyc and b/Lib/site-packages/django/views/__pycache__/i18n.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/__pycache__/static.cpython-36.pyc b/Lib/site-packages/django/views/__pycache__/static.cpython-36.pyc
+index ea1f044..2b70872 100644
+Binary files a/Lib/site-packages/django/views/__pycache__/static.cpython-36.pyc and b/Lib/site-packages/django/views/__pycache__/static.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/decorators/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/views/decorators/__pycache__/__init__.cpython-36.pyc
+index aa37366..811fce2 100644
+Binary files a/Lib/site-packages/django/views/decorators/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/views/decorators/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/decorators/__pycache__/cache.cpython-36.pyc b/Lib/site-packages/django/views/decorators/__pycache__/cache.cpython-36.pyc
+index 65e4587..67cf316 100644
+Binary files a/Lib/site-packages/django/views/decorators/__pycache__/cache.cpython-36.pyc and b/Lib/site-packages/django/views/decorators/__pycache__/cache.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/decorators/__pycache__/csrf.cpython-36.pyc b/Lib/site-packages/django/views/decorators/__pycache__/csrf.cpython-36.pyc
+index f6930af..9943dd2 100644
+Binary files a/Lib/site-packages/django/views/decorators/__pycache__/csrf.cpython-36.pyc and b/Lib/site-packages/django/views/decorators/__pycache__/csrf.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/decorators/__pycache__/debug.cpython-36.pyc b/Lib/site-packages/django/views/decorators/__pycache__/debug.cpython-36.pyc
+index b776a61..9798b9b 100644
+Binary files a/Lib/site-packages/django/views/decorators/__pycache__/debug.cpython-36.pyc and b/Lib/site-packages/django/views/decorators/__pycache__/debug.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/__init__.cpython-36.pyc
+index 3c5b8ca..81a1050 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/base.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/base.cpython-36.pyc
+index 932957f..a9b516a 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/base.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/base.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/dates.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/dates.cpython-36.pyc
+index f3c3400..b97ea62 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/dates.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/dates.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/detail.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/detail.cpython-36.pyc
+index 627d163..4b897ea 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/detail.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/detail.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/edit.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/edit.cpython-36.pyc
+index 39d2c56..16add3b 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/edit.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/edit.cpython-36.pyc differ
+diff --git a/Lib/site-packages/django/views/generic/__pycache__/list.cpython-36.pyc b/Lib/site-packages/django/views/generic/__pycache__/list.cpython-36.pyc
+index 8ba868c..3a59cfc 100644
+Binary files a/Lib/site-packages/django/views/generic/__pycache__/list.cpython-36.pyc and b/Lib/site-packages/django/views/generic/__pycache__/list.cpython-36.pyc differ
+diff --git a/Lib/site-packages/pytz/__pycache__/__init__.cpython-36.pyc b/Lib/site-packages/pytz/__pycache__/__init__.cpython-36.pyc
+index 929cdc6..5851c54 100644
+Binary files a/Lib/site-packages/pytz/__pycache__/__init__.cpython-36.pyc and b/Lib/site-packages/pytz/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/Lib/site-packages/pytz/__pycache__/exceptions.cpython-36.pyc b/Lib/site-packages/pytz/__pycache__/exceptions.cpython-36.pyc
+index e298272..8213be8 100644
+Binary files a/Lib/site-packages/pytz/__pycache__/exceptions.cpython-36.pyc and b/Lib/site-packages/pytz/__pycache__/exceptions.cpython-36.pyc differ
+diff --git a/Lib/site-packages/pytz/__pycache__/lazy.cpython-36.pyc b/Lib/site-packages/pytz/__pycache__/lazy.cpython-36.pyc
+index 2d92f14..1211cc3 100644
+Binary files a/Lib/site-packages/pytz/__pycache__/lazy.cpython-36.pyc and b/Lib/site-packages/pytz/__pycache__/lazy.cpython-36.pyc differ
+diff --git a/Lib/site-packages/pytz/__pycache__/tzfile.cpython-36.pyc b/Lib/site-packages/pytz/__pycache__/tzfile.cpython-36.pyc
+index c05ceb9..c00782a 100644
+Binary files a/Lib/site-packages/pytz/__pycache__/tzfile.cpython-36.pyc and b/Lib/site-packages/pytz/__pycache__/tzfile.cpython-36.pyc differ
+diff --git a/Lib/site-packages/pytz/__pycache__/tzinfo.cpython-36.pyc b/Lib/site-packages/pytz/__pycache__/tzinfo.cpython-36.pyc
+index d55872d..230b65e 100644
+Binary files a/Lib/site-packages/pytz/__pycache__/tzinfo.cpython-36.pyc and b/Lib/site-packages/pytz/__pycache__/tzinfo.cpython-36.pyc differ
+diff --git a/src/ChalkBox/__pycache__/__init__.cpython-36.pyc b/src/ChalkBox/__pycache__/__init__.cpython-36.pyc
+index 38ad875..d1076c9 100644
+Binary files a/src/ChalkBox/__pycache__/__init__.cpython-36.pyc and b/src/ChalkBox/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/ChalkBox/__pycache__/settings.cpython-36.pyc b/src/ChalkBox/__pycache__/settings.cpython-36.pyc
+index 343592e..e350120 100644
+Binary files a/src/ChalkBox/__pycache__/settings.cpython-36.pyc and b/src/ChalkBox/__pycache__/settings.cpython-36.pyc differ
+diff --git a/src/ChalkBox/__pycache__/urls.cpython-36.pyc b/src/ChalkBox/__pycache__/urls.cpython-36.pyc
+index 32c355f..cef9983 100644
+Binary files a/src/ChalkBox/__pycache__/urls.cpython-36.pyc and b/src/ChalkBox/__pycache__/urls.cpython-36.pyc differ
+diff --git a/src/ChalkBox/__pycache__/views.cpython-36.pyc b/src/ChalkBox/__pycache__/views.cpython-36.pyc
+index ba72413..b1510f4 100644
+Binary files a/src/ChalkBox/__pycache__/views.cpython-36.pyc and b/src/ChalkBox/__pycache__/views.cpython-36.pyc differ
+diff --git a/src/ChalkBox/__pycache__/wsgi.cpython-36.pyc b/src/ChalkBox/__pycache__/wsgi.cpython-36.pyc
+index 4275dae..6922507 100644
+Binary files a/src/ChalkBox/__pycache__/wsgi.cpython-36.pyc and b/src/ChalkBox/__pycache__/wsgi.cpython-36.pyc differ
+diff --git a/src/accounts/__pycache__/__init__.cpython-36.pyc b/src/accounts/__pycache__/__init__.cpython-36.pyc
+index da880a8..7b462f1 100644
+Binary files a/src/accounts/__pycache__/__init__.cpython-36.pyc and b/src/accounts/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/accounts/__pycache__/admin.cpython-36.pyc b/src/accounts/__pycache__/admin.cpython-36.pyc
+index 62c859a..ee99128 100644
+Binary files a/src/accounts/__pycache__/admin.cpython-36.pyc and b/src/accounts/__pycache__/admin.cpython-36.pyc differ
+diff --git a/src/accounts/__pycache__/models.cpython-36.pyc b/src/accounts/__pycache__/models.cpython-36.pyc
+index 1ad0b9b..5f6e66c 100644
+Binary files a/src/accounts/__pycache__/models.cpython-36.pyc and b/src/accounts/__pycache__/models.cpython-36.pyc differ
+diff --git a/src/accounts/migrations/__pycache__/0001_initial.cpython-36.pyc b/src/accounts/migrations/__pycache__/0001_initial.cpython-36.pyc
+index c4a8edf..962592a 100644
+Binary files a/src/accounts/migrations/__pycache__/0001_initial.cpython-36.pyc and b/src/accounts/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/src/accounts/migrations/__pycache__/0002_auto_20171104_1716.cpython-36.pyc b/src/accounts/migrations/__pycache__/0002_auto_20171104_1716.cpython-36.pyc
+index 19927ef..1907079 100644
+Binary files a/src/accounts/migrations/__pycache__/0002_auto_20171104_1716.cpython-36.pyc and b/src/accounts/migrations/__pycache__/0002_auto_20171104_1716.cpython-36.pyc differ
+diff --git a/src/accounts/migrations/__pycache__/0003_user_courses.cpython-36.pyc b/src/accounts/migrations/__pycache__/0003_user_courses.cpython-36.pyc
+index 6dc649f..a9ae551 100644
+Binary files a/src/accounts/migrations/__pycache__/0003_user_courses.cpython-36.pyc and b/src/accounts/migrations/__pycache__/0003_user_courses.cpython-36.pyc differ
+diff --git a/src/accounts/migrations/__pycache__/__init__.cpython-36.pyc b/src/accounts/migrations/__pycache__/__init__.cpython-36.pyc
+index 31dd0f5..ecef6fd 100644
+Binary files a/src/accounts/migrations/__pycache__/__init__.cpython-36.pyc and b/src/accounts/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/assignments/__pycache__/__init__.cpython-36.pyc b/src/assignments/__pycache__/__init__.cpython-36.pyc
+index eab93df..7ab764d 100644
+Binary files a/src/assignments/__pycache__/__init__.cpython-36.pyc and b/src/assignments/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/assignments/__pycache__/admin.cpython-36.pyc b/src/assignments/__pycache__/admin.cpython-36.pyc
+index 15b64d7..41f2bc0 100644
+Binary files a/src/assignments/__pycache__/admin.cpython-36.pyc and b/src/assignments/__pycache__/admin.cpython-36.pyc differ
+diff --git a/src/assignments/__pycache__/models.cpython-36.pyc b/src/assignments/__pycache__/models.cpython-36.pyc
+index 7b3ef3a..346fde8 100644
+Binary files a/src/assignments/__pycache__/models.cpython-36.pyc and b/src/assignments/__pycache__/models.cpython-36.pyc differ
+diff --git a/src/assignments/migrations/__pycache__/0001_initial.cpython-36.pyc b/src/assignments/migrations/__pycache__/0001_initial.cpython-36.pyc
+index e2f2ba9..0b15687 100644
+Binary files a/src/assignments/migrations/__pycache__/0001_initial.cpython-36.pyc and b/src/assignments/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/src/assignments/migrations/__pycache__/__init__.cpython-36.pyc b/src/assignments/migrations/__pycache__/__init__.cpython-36.pyc
+index 81747e5..5bac9e8 100644
+Binary files a/src/assignments/migrations/__pycache__/__init__.cpython-36.pyc and b/src/assignments/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/courses/__pycache__/__init__.cpython-36.pyc b/src/courses/__pycache__/__init__.cpython-36.pyc
+index 13bf45c..877ebc2 100644
+Binary files a/src/courses/__pycache__/__init__.cpython-36.pyc and b/src/courses/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/courses/__pycache__/admin.cpython-36.pyc b/src/courses/__pycache__/admin.cpython-36.pyc
+index 218fa53..1e6fe3b 100644
+Binary files a/src/courses/__pycache__/admin.cpython-36.pyc and b/src/courses/__pycache__/admin.cpython-36.pyc differ
+diff --git a/src/courses/__pycache__/models.cpython-36.pyc b/src/courses/__pycache__/models.cpython-36.pyc
+index ff7650a..2be8609 100644
+Binary files a/src/courses/__pycache__/models.cpython-36.pyc and b/src/courses/__pycache__/models.cpython-36.pyc differ
+diff --git a/src/courses/__pycache__/urls.cpython-36.pyc b/src/courses/__pycache__/urls.cpython-36.pyc
+index 3b83acb..e75413d 100644
+Binary files a/src/courses/__pycache__/urls.cpython-36.pyc and b/src/courses/__pycache__/urls.cpython-36.pyc differ
+diff --git a/src/courses/__pycache__/views.cpython-36.pyc b/src/courses/__pycache__/views.cpython-36.pyc
+index 3fb29de..268cad3 100644
+Binary files a/src/courses/__pycache__/views.cpython-36.pyc and b/src/courses/__pycache__/views.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0001_initial.cpython-36.pyc b/src/courses/migrations/__pycache__/0001_initial.cpython-36.pyc
+index 32b1865..ae35feb 100644
+Binary files a/src/courses/migrations/__pycache__/0001_initial.cpython-36.pyc and b/src/courses/migrations/__pycache__/0001_initial.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0002_auto_20171103_1158.cpython-36.pyc b/src/courses/migrations/__pycache__/0002_auto_20171103_1158.cpython-36.pyc
+index 9170c07..9859eb3 100644
+Binary files a/src/courses/migrations/__pycache__/0002_auto_20171103_1158.cpython-36.pyc and b/src/courses/migrations/__pycache__/0002_auto_20171103_1158.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0003_auto_20171103_1520.cpython-36.pyc b/src/courses/migrations/__pycache__/0003_auto_20171103_1520.cpython-36.pyc
+index 2eb7af6..549d54c 100644
+Binary files a/src/courses/migrations/__pycache__/0003_auto_20171103_1520.cpython-36.pyc and b/src/courses/migrations/__pycache__/0003_auto_20171103_1520.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0004_remove_course_user.cpython-36.pyc b/src/courses/migrations/__pycache__/0004_remove_course_user.cpython-36.pyc
+index f83c535..8a8bc66 100644
+Binary files a/src/courses/migrations/__pycache__/0004_remove_course_user.cpython-36.pyc and b/src/courses/migrations/__pycache__/0004_remove_course_user.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0005_auto_20171104_1853.cpython-36.pyc b/src/courses/migrations/__pycache__/0005_auto_20171104_1853.cpython-36.pyc
+index cd9896b..432344d 100644
+Binary files a/src/courses/migrations/__pycache__/0005_auto_20171104_1853.cpython-36.pyc and b/src/courses/migrations/__pycache__/0005_auto_20171104_1853.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0006_course_syllabus.cpython-36.pyc b/src/courses/migrations/__pycache__/0006_course_syllabus.cpython-36.pyc
+index e34a356..09c9a6a 100644
+Binary files a/src/courses/migrations/__pycache__/0006_course_syllabus.cpython-36.pyc and b/src/courses/migrations/__pycache__/0006_course_syllabus.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/0007_course_assignments.cpython-36.pyc b/src/courses/migrations/__pycache__/0007_course_assignments.cpython-36.pyc
+index adb4005..73e0d1a 100644
+Binary files a/src/courses/migrations/__pycache__/0007_course_assignments.cpython-36.pyc and b/src/courses/migrations/__pycache__/0007_course_assignments.cpython-36.pyc differ
+diff --git a/src/courses/migrations/__pycache__/__init__.cpython-36.pyc b/src/courses/migrations/__pycache__/__init__.cpython-36.pyc
+index ef6f8c1..1add6a7 100644
+Binary files a/src/courses/migrations/__pycache__/__init__.cpython-36.pyc and b/src/courses/migrations/__pycache__/__init__.cpython-36.pyc differ
+diff --git a/src/db.sqlite3 b/src/db.sqlite3
+index e9a292a..829d4c5 100644
+Binary files a/src/db.sqlite3 and b/src/db.sqlite3 differ

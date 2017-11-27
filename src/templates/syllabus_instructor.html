@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+	{% if request.user.is_staff %}
+	<!--form method = "post" action="." enctype = "multipart/form-data">
+		{% csrf_token %}
+	<input type="file" id="upload" name="upload" accept="application/pdf"><br>
+	<input type="submit" name="upload_button" value="upload">
+	</form-->
+	{% else %}
+
+		<h1>{{ instance.title }}</h1>
+		{% if instance.syllabus %}
+			<a href='{{ instance.syllabus.url }}'>{{ instance.syllabus }}</a>
+		{% endif %}
+	{% endif %}
+{% endblock %}
+
+

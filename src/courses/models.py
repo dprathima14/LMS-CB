@@ -13,7 +13,7 @@ class Course(models.Model):
     updated     = models.DateTimeField(auto_now=True)
     timestamp   = models.DateTimeField(auto_now_add=True)
     syllabus	= models.FileField(null=True, blank=True)
-
+    
     def __str__(self):
         return str(self.id)
 
