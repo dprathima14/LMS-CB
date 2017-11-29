@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from courses.models import Course
 from .models import Assignment
+from accounts.models import *
 
 # Create your views here.
 def assignment_home(request, cid=None):
@@ -20,7 +21,11 @@ def assignment_home(request, cid=None):
 		"title": "Assignment List",
 		"id": course.id,
 	}
-	return render(request, "assignment_home.html", context)
+	if request.user.is_staff == True:
+		return render(request, "assignment_home.html", context)
+	else:
+		return render(request, "assignment_home_student.html", context)
+
 
 def assignment_detail(request, cid=None, aid=None):
 	#if request.method == "POST":

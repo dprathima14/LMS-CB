@@ -1,0 +1,62 @@
+{% extends "base_navbar.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+	{% include "side_bar.html" with cid=id %}
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+	<h1>{{ title }}</h1>
+	<caption> Upcoming Assignment </caption>
+	<table class="table">
+		<thead>
+		    <tr>
+		      <th scope="col">Assignment title</th>
+		      <th scope="col">Assignment question</th>
+		      <th scope="col">Due date</th>
+		      <th scope="col">total points</th>
+		    </tr>
+		</thead>
+		<tbody>
+	       	{% for obj in upcoming_assignment %}
+			    <tr>
+			      <td><a href='{% url "courses:assignments:assignment_detail" cid=id aid=obj.id %}'>{{ obj.title }}</a></td>
+			      {% if obj.question %}
+			      	<td>{{ obj.question }}</td>
+			      {% else %}
+			      	<td></td>
+			      {% endif %}
+			      <td>{{ obj.due_date }}</td>
+			      <td>{{ obj.total_points }}</td>
+			    </tr>
+	       	{% endfor %}
+       	</tbody>
+	</table>
+	<caption> Overdue Assignment </caption>
+	<table class="table">
+		<thead>
+		    <tr>
+		      <th scope="col">Assignment title</th>
+		      <th scope="col">Assignment question</th>
+		      <th scope="col">Due date</th>
+		      <th scope="col">total points</th>
+		    </tr>
+		</thead>
+		<tbody>
+	       	{% for obj in overdue_assignment %}
+			    <tr>
+			      <td><a href='{% url "courses:assignments:assignment_detail" cid=id aid=obj.id %}'>{{ obj.title }}</a></td>
+			      {% if obj.question %}
+			      	<td>{{ obj.question }}</td>
+			      {% else %}
+			      	<td></td>
+			      {% endif %}
+			      <td>{{ obj.due_date }}</td>
+			      <td>{{ obj.total_points }}</td>
+			    </tr>
+	       	{% endfor %}
+       	</tbody>
+	</table>
+	
+    </main>
+  </div>
+</div>
+{% endblock %}
