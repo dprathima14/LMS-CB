@@ -1,0 +1,14 @@
+{% extends "base_navbar.html" %}
+{% block content %}
+	<h1>Name: {{ name }}</h1>
+	<div> 
+		<h3>Email:</h3> {{ user.email }}
+		<h3>Contact:</h3> {{ user.phone_number }}
+		<h3>Biography:</h3>
+		<p>{{ user.biography }}</p>
+		<h3>Enrollments:</h3>
+		{% for course in courses %}
+			<h5><a href='{{ course.get_absolute_url }}'>{{ course.course_code }}</a></h5>
+		{% endfor %}
+	</div>
+{% endblock %}

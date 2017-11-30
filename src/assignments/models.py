@@ -10,7 +10,7 @@ class Assignment(models.Model):
 	title = models.CharField(max_length=120)
 	due_date = models.DateTimeField()
 	total_points	= models.IntegerField()
-	assigment_description = models.TextField(blank=True)
+	description = models.TextField(blank=True)
 	updated     = models.DateTimeField(auto_now=True)
 	timestamp   = models.DateTimeField(auto_now_add=True)
 	question	= models.FileField(null=True, blank=True)

@@ -13,7 +13,7 @@ def course_home(request):
 		"object_list": queryset,
 		"title": "Courses",
 	}
-	return render(request, "course_home.html", context)
+	return render(request, "course/course_home.html", context)
 
 
 def course_detail(request, cid=None):
@@ -23,7 +23,7 @@ def course_detail(request, cid=None):
 		"title": instance.course_title,
 		"instance": instance,
 	}
-	return render(request, "course_detail.html", context)
+	return render(request, "course/course_detail.html", context)
 
 
 def syllabus_view(request, cid=None):
@@ -32,7 +32,7 @@ def syllabus_view(request, cid=None):
 		"title": instance.course_title,
 		"instance": instance,
 	}
-	return render(request, "syllabus_instructor.html", context)
+	return render(request, "course/syllabus_instructor.html", context)
 	
 
 '''

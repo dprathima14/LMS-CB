@@ -1,22 +1,12 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from assignments.models import Assignment
 from courses.models import Course
+from accounts.models import User
 from .models import Submission
+from .forms import SubmissionForm
+from django.core.exceptions import ObjectDoesNotExist
 
 # Create your views here.
-def assignment_list(request, cid=None):
-	#form = LoginForm(request.POST or None)
-	#user = User(id=request.user.id)
-	course = Course(id=cid)
-	queryset = course.assignments.all().order_by('due_date')
-
-	context = {
-		"object_list": queryset,
-		"title": "Assignment List",
-		"id": course.id,
-	}
-	return render(request, "assignment_list.html", context)
-
 def submission_list(request, cid=None, aid=None):
 	if request.method == "POST":
 		instance = Submission.objects.get(id=request.POST.get('sid'))
@@ -28,4 +18,36 @@ def submission_list(request, cid=None, aid=None):
 		"object_list": submissions,
 		"id": cid,
 	}
-	return render(request, "submissions.html", context)
+
+	return render(request, "submission/submissions.html", context)
+
+def submit_assignment(request, cid=None, aid=None):
+	try:
+		submission = Submission.objects.get(course__id=cid, assignment__id=aid, user__id=request.user.id)
+	except ObjectDoesNotExist:
+		submission = None
+	
+	if request.method == "POST":
+		if submission:
+			form = SubmissionForm(request.POST or None, request.FILES or None, instance=submission)
+		else:
+			form = SubmissionForm(request.POST or None, request.FILES or None)
+		if form.is_valid():
+			instance = form.save(commit=False)
+			if submission == None:
+				instance.user = User.objects.get(id=request.user.id)
+				instance.course = Course.objects.get(id=cid)
+				instance.assignment = Assignment.objects.get(id=aid)
+			instance.save()
+			return redirect("courses:assignments:assignment_home", cid=cid)
+	else:
+		if submission:
+			form = SubmissionForm(instance=submission)
+		else: 
+			form = SubmissionForm(request.POST or None, request.FILES or None)
+	context = {
+		"form": form,
+		"id": cid,
+	}
+
+	return render(request, "submission/submit_assignment.html", context)

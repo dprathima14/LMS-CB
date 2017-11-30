@@ -12,7 +12,7 @@ def student_list(request, cid=None):
 		"title": "Student List",
 		"id": cid,
 	}
-	return render(request, "student_list.html", context)
+	return render(request, "account/student_list.html", context)
 
 def user_details(request, cid=None, user=None):
 	#form = LoginForm(request.POST or None)
@@ -25,7 +25,7 @@ def user_details(request, cid=None, user=None):
 		"courses": queryset,
 		"id": cid,
 	}
-	return render(request, "user_detail.html", context)
+	return render(request, "account/student_detail.html", context)
 
 def user_profile(request):
 	#form = LoginForm(request.POST or None)
@@ -37,5 +37,5 @@ def user_profile(request):
 		"user": user,
 		"courses": queryset,
 	}
-	return render(request, "user_profile.html", context)
+	return render(request, "account/user_profile.html", context)
 

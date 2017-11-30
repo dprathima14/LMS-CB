@@ -1,13 +1,20 @@
 {% extends "base_navbar.html" %}
+{% load crispy_forms_tags %}
 {% block content %}
 
 <div class="container-fluid">
 	<div class="row">
        {% include "side_bar.html" with cid=id %}
     	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-		<h1>{{ title }}</h1>
+		<h1>Assignment:</h1>
 		<div> 
-			<table class="table">
+		<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
+		{{ form|crispy }}
+
+		<input class='btn btn-default' type='submit' value='Save' />
+
+		</form>
+			<!--table class="table">
 				<thead>
 					<tr>
 						<th>{{instance.title}}</th>
@@ -21,10 +28,10 @@
 				</tbody>
 				<tbody>
 					<tr>
-						<td>This is the content of assignment:{{instance.assignment_description}}</td>
+						<td>This is the content of assignment:{{instance.description}}</td>
 					</tr>
 				</tbody>
-			</table>
+			</table-->
 		</div>
     	</main>
 	</div>

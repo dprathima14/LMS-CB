@@ -1,6 +1,10 @@
 {% extends "base_navbar.html" %}
 {% block content %}
-		 <h1>Name: {{ name }}</h1>
+<div class="container-fluid">
+  <div class="row">
+       {% include "side_bar.html" with cid=id %}
+       <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+		<h1>Name: {{ name }}</h1>
 		<div> 
 			<h3>Email:</h3> {{ user.email }}
 			<h3>Contact:</h3> {{ user.phone_number }}
@@ -11,4 +15,7 @@
 				<h5><a href='{{ course.get_absolute_url }}'>{{ course.course_code }}</a></h5>
 			{% endfor %}
 		</div>
+       </main>
+  </div>
+</div>
 {% endblock %}
