@@ -64,3 +64,20 @@ def assignment_submitted(request, cid=None):
 		"id": course.id,
 	}
 	return render(request, "assignment/assignments_submitted.html", context)
+
+def assignment_create(request, cid=None):
+	if request.method=="POST":
+		form = AssignmentForm(request.POST or None, request.FILES or None)
+		if form.is_valid():
+			instance = form.save()
+			course = Course.objects.get(id=cid)
+			course.assignments.add(instance)
+			course.save()
+			return redirect("courses:assignments:assignment_home", cid=cid)
+	else: 
+		form = AssignmentForm(None)
+	context = {
+		"form": form,
+		"id": cid,
+	}
+	return render(request, "assignment/assignment_create.html", context)
