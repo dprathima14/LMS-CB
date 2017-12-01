@@ -23,7 +23,11 @@
       {% endif %}
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
+           {% if request.user.is_staff %}
           <a class="nav-link" href="#">Grades</a>
+          {% else %}
+          <a class="nav-link" href="{% url 'courses:submissions:student_grade' cid=cid %}">Grades</a>
+          {% endif %}
         </li>
       </ul>
     </nav>

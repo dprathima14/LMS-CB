@@ -1,0 +1,36 @@
+{% extends "base_navbar.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+	{% include "side_bar.html" with cid=id %}
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+	<h1>{{ title }}</h1>
+	<table class="table">
+		<thead>
+		    <tr>
+		      <th scope="col">title</th>
+		      <th scope="col">due_date</th>
+		      <th scope="col">points</th>
+		      <th scope="col">total points</th>		      
+		      <th scope="col">percentage</th>
+		    </tr>
+		</thead>
+		<tbody>
+	       	{% for obj in object_list %}
+	       	{%  widthratio obj.points obj.assignment.total_points 100 as ratios %}
+			    <tr>
+			     
+			      <td>{{ obj.assignment.title }}</td>
+			      <td>{{ obj.assignment.due_date }}</td>
+			      <td>{{ obj.points }}</td>
+			      <td>{{ obj.assignment.total_points }}</td>
+			      <td>{{ ratios }}%</td>
+			      
+			    </tr>
+	       	{% endfor %}
+       	</tbody>
+	</table>
+    </main>
+  </div>
+</div>
+{% endblock %}

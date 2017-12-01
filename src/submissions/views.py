@@ -51,3 +51,13 @@ def submit_assignment(request, cid=None, aid=None):
 	}
 
 	return render(request, "submission/submit_assignment.html", context)
+
+def student_grade(request, cid=None):
+	submissions = Submission.objects.all().filter(course__id=cid, user__id=request.user.id)
+	context = {
+	    "object_list": submissions,
+		"id": cid,	
+	}
+
+	return render(request, "submission/student_grade.html", context)
+
