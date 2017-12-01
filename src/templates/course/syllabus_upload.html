@@ -1,0 +1,23 @@
+{% extends "base_navbar.html" %}
+{% load crispy_forms_tags %}
+{% block content %}        
+<div class="container-fluid">
+  <div class="row">
+	{% include "side_bar.html" with cid=id %}
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+	<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
+	{{ form|crispy }}
+
+	<input class='btn btn-default' type='submit' value='Confirm' />
+
+	</form>
+	<!--form method = "post" action="." enctype = "multipart/form-data">
+		{% csrf_token %}
+	<input type="file" id="upload" name="upload" accept="application/pdf"><br>
+	<input type="submit" name="upload_button" value="upload">
+	</form-->
+	</main>
+  </div>
+</div>
+{% endblock %}
+
