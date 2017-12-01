@@ -33,7 +33,7 @@ def syllabus_view(request, cid=None):
 		"title": instance.course_title,
 		"instance": instance,
 	}
-	return render(request, "course/syllabus_instructor.html", context)
+	return render(request, "course/syllabus.html", context)
 
 def syllabus_upload(request, cid=None):
 	course = Course.objects.get(id=cid)
@@ -43,24 +43,13 @@ def syllabus_upload(request, cid=None):
 			instance = form.save(commit=False)
 			instance.save()
 			return redirect("courses:detail",cid=cid)
-		else:
-			form = CourseForm(instance=course)
+	else:
+		form = CourseForm(instance=course)
 
-		context = {
-			"form": form,
-			"id" : cid,
-		}
-		return render(request, "course/syllabus_upload.html",context)
+	context = {
+		"form": form,
+		"id" : cid,
+	}
+	return render(request, "course/syllabus_upload.html", context)
 
-'''
-def syllabus_upload(request):
-	if request.method == 'POST' and request.FILES['upload']:
-		myfile = request.FILES['upload']
-		fs = FileSystemStorage()
-		filename = fs.save(myfile.name, myfile)
-		uploaded_file_url = fs.url(filename)
-		return render(request, 'test.html', {
-            'uploaded_file_url': uploaded_file_url
-        })
-'''
         
