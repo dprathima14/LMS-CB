@@ -1,24 +1,25 @@
 {% extends "base_navbar.html" %}
+{% block head_title %}Assignment Detail | {{ block.super }}{% endblock %}
 {% block content %}
 
 <div class="container-fluid">
-	<div class="row">
-       {% include "side_bar.html" with cid=id %}
-    	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-		<h1>{{instance.title}}</h1>
-		<h4><b>Due_date:</b> {{instance.due_date}}</h4>
-		<h4><b>Points:</b> {{instance.total_points}}</h4>
-		<h4><b>Description:</b></h4>
-		<p>{{instance.description}}</p>
-		<h4><b>Question:
-		 {% if instance.question %}
-			<a href='{{ instance.question.url }}'>{{ instance.question }}</a>
-		{% endif %}
-		</b></h4>
-		{% if request.user.is_staff == False %}
-			<a href="{% url 'courses:submissions:submit_assignment' cid=id aid=instance.id %}"><button type="button" class="btn btn-default"><i class="fa fa-check-square-o" aria-hidden="true"></i>Submit assignment</button></a>
-		{% endif %}
-    	</main>
-	</div>
+   {% include "side_bar.html" with cid=id %}
+	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-2">
+		<div class="content">
+			<h1>{{instance.title}}</h1>
+			<h4><b>Due_date:</b> {{instance.due_date}}</h4>
+			<h4><b>Points:</b> {{instance.total_points}}</h4>
+			<h4><b>Description:</b></h4>
+			<p>{{instance.description}}</p>
+			<h4><b>Question:
+			 {% if instance.question %}
+				<a href='{{ instance.question.url }}'>{{ instance.question }}</a>
+			{% endif %}
+			</b></h4>
+			{% if request.user.is_staff == False %}
+				<a href="{% url 'courses:submissions:submit_assignment' cid=id aid=instance.id %}"><button type="button" class="btn btn-default"><i class="fa fa-check-square-o" aria-hidden="true"></i>Submit assignment</button></a>
+			{% endif %}
+		</div>
+	</main>
 </div>
 {% endblock %}

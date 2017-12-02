@@ -12,6 +12,7 @@ class Submission(models.Model):
     assignment = models.ForeignKey(Assignment)
     submission	= models.FileField(null=True, blank=True)
     points	= models.IntegerField(null=True, blank=True)
+    total_points	= models.IntegerField(null=True, blank=True)
     comments = models.TextField(blank=True)
 
     def __str__(self):

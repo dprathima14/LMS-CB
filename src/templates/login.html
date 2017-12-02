@@ -1,16 +1,39 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% load crispy_forms_tags %}
-{% block content %}
-<div class="container-fluid">
-    <div class="row">
-		<div class ="col-md-4">
-      		<form method="post" class="form-signin">
-        	<h2 class="form-signin-heading">Please sign in</h2>{% csrf_token %}
-        	{{ form|crispy }}
+{% block style %}
+    <style>
+    .landing_page {
+        text-align: center;
+        background: url('{% static "img/CB_test2.jpg" %}') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100vh;
+    }
 
-        	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      		</form>
-  		</div>
-  	</div>
-</div> <!-- /container -->
+ 	.description {
+    padding-top: 20%;
+    padding-left: 60%;
+    font-family: 'Quicksand', 'Raleway', Arial, Helvetica, sans-serif;
+	}
+    </style>
+{% endblock %}
+{% block content %}
+<div class="landing_page">
+    <div class="container">
+        <div class="description">
+        		<div style="border: 1px solid #CCC;padding: 45px 45px 45px;background-color: #FFFFF7;">
+        		<form method="post" class="form-signin">
+	        	<h2 class="form-signin-heading">Please sign in</h2>{% csrf_token %}
+	        	{{ form|crispy }}
+
+	        	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	      		</form>
+	      	</div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

@@ -3,15 +3,17 @@ from .forms import CourseForm
 from django.http import HttpResponse
 from .models import Course
 from accounts.models import User
+from assignments.models import Assignment
 #from django.core.files.storage import FileSystemStorage
 
 # Create your views here.
 def course_home(request):
-	#form = LoginForm(request.POST or None)
 	user = User(id=request.user.id)
-	queryset = user.courses.all()
+	assignments = Assignment.objects.all().order_by('due_date')
+	courses = user.courses.all()
 	context = {
-		"object_list": queryset,
+		"object_list": courses,
+		"todo": assignments,
 		"title": "Courses",
 	}
 	return render(request, "course/course_home.html", context)

@@ -1,17 +1,16 @@
 {% extends "base_navbar.html" %}
+{% block head_title %}Syllabus | {{ block.super }}{% endblock %}
 {% block content %}        
 <div class="container-fluid">
-  <div class="row">
 	{% include "side_bar.html" with cid=instance.id %}
-    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-
-	<h1>{{ instance.title }}</h1>
-	{% if instance.syllabus %}
-		<a href='{{ instance.syllabus.url }}'>{{ instance.syllabus }}</a>
-	{% endif %}
-
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-5">
+		<div class="content">
+			<h1>{{ instance.title }}</h1>
+			{% if instance.syllabus and instance.publish_syllabus %}
+				<a href='{{ instance.syllabus.url }}'>{{ instance.syllabus }}</a>
+			{% endif %}
+		</div>
 	</main>
-  </div>
 </div>
 {% endblock %}
 

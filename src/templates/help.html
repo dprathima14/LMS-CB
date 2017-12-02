@@ -1,11 +1,16 @@
 {% extends "base_navbar.html" %}
+{% block head_title %}Help | {{ block.super }}{% endblock %}
 {% block content %}
-<h3>What is ChalkBox?</h3>
-<p> ChalkBox is a Learning Management System<p>
-<h3>What can you do with ChalkBox?</h3>
-<p>View regirtered courses</p>
-<p>View Syllabus</p>
-<p>view and submit assignments</p>
-<p>View Grades</p> 
+<div class="container-fluid">
+	<div class="content">
+		<h3>What is ChalkBox?</h3>
+		<p> ChalkBox is a Learning Management System</p>
+		<h3>What can you do with ChalkBox?</h3>
+		<p>View regirtered courses</p>
+		<p>View Syllabus</p>
+		<p>view and submit assignments</p>
+		<p>View Grades</p> 
+	</div>
+</div>
 
 {% endblock %}

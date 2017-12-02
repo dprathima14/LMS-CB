@@ -1,39 +1,22 @@
 {% extends "base_navbar.html" %}
 {% load crispy_forms_tags %}
+{% block head_title %}Edit Assignment | {{ block.super }}{% endblock %}
 {% block content %}
 
 <div class="container-fluid">
-	<div class="row">
-       {% include "side_bar.html" with cid=id %}
-    	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-		<h1>Assignment:</h1>
-		<div> 
-		<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
-		{{ form|crispy }}
+   {% include "side_bar.html" with cid=id %}
+	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-2">
+		<div class="content">
+			<h1>Assignment:</h1>
+			<div> 
+				<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
+				{{ form|crispy }}
 
-		<input class='btn btn-default' type='submit' value='Save' />
+				<input class='btn btn-default' type='submit' value='Save' />
 
-		</form>
-			<!--table class="table">
-				<thead>
-					<tr>
-						<th>{{instance.title}}</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Due_date: {{instance.due_date}}</td>
-						<td>Points: {{instance.total_points}}</td>
-					</tr>
-				</tbody>
-				<tbody>
-					<tr>
-						<td>This is the content of assignment:{{instance.description}}</td>
-					</tr>
-				</tbody>
-			</table-->
+				</form>
+			</div>
 		</div>
-    	</main>
-	</div>
+	</main>
 </div>
 {% endblock %}
