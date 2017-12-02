@@ -81,3 +81,8 @@ def assignment_create(request, cid=None):
 		"id": cid,
 	}
 	return render(request, "assignment/assignment_create.html", context)
+
+def assignment_delete(request, cid=None, aid=None):
+	instance = get_object_or_404(Assignment, id=aid)
+	instance.delete()
+	return redirect("courses:assignments:assignment_home", cid=cid)

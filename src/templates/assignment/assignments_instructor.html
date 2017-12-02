@@ -14,6 +14,7 @@
 		      <th scope="col">Assignment question</th>
 		      <th scope="col">Due date</th>
 		      <th scope="col">total points</th>
+                <th scope="col">Delete</th>
 		    </tr>
 		</thead>
 		<tbody>
@@ -27,6 +28,7 @@
 			      {% endif %}
 			      <td>{{ obj.due_date }}</td>
 			      <td>{{ obj.total_points }}</td>
+                <td><a href='{% url "courses:assignments:assignment_delete" cid=id aid=obj.id %}'>Delete</a></td>
 			    </tr>
 	       	{% endfor %}
        	</tbody>
