@@ -44,7 +44,7 @@ def syllabus_upload(request, cid=None):
 		if form.is_valid():
 			instance = form.save(commit=False)
 			instance.save()
-			return redirect("courses:detail",cid=cid)
+			return redirect("courses:syllabus_view",cid=cid)
 	else:
 		form = CourseForm(instance=course)
 

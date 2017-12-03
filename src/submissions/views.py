@@ -12,6 +12,8 @@ def submission_list(request, cid=None, aid=None):
 	if request.method == "POST":
 		instance = Submission.objects.get(id=request.POST.get('sid'))
 		instance.points = request.POST.get('points')
+		if int(instance.points) > int(instance.assignment.total_points):
+			instance.points = instance.assignment.total_points
 		instance.save()
 
 	submissions = Submission.objects.all().filter(course__id=cid, assignment__id=aid)
@@ -59,9 +61,9 @@ def student_grade(request, cid=None):
 	points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(sum=Sum('points'))['sum']
 	total_points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(total=Sum('total_points'))['total']
 	context = {
-	    "object_list": submissions,
-	    "points": points,
-	    "total": total_points,
+		"object_list": submissions,
+		"points": points,
+		"total": total_points,
 		"id": cid,	
 	}
 
@@ -69,23 +71,32 @@ def student_grade(request, cid=None):
 
 
 def instructor_grade(request, cid=None):
-	#student_submission_points = set()
-	student_submission_total = set()
 	students = User.objects.all().filter(staff=False, courses__id=cid)
+	scored_points_list = []
+	student_list = []
 	for student in students:
-		points = Submission.objects.all().filter(course__id=cid, user__id=student.id).aggregate(sum=Sum('points'))['sum']
-#		total_points = Submission.objects.all().filter(course__id=cid, user__id=student.id).aggregate(total=Sum('total_points'))['total']
+		submissions = Submission.objects.all().filter(course__id=cid, user__id=student.id)
+		points = 0
+		total_points = 0
+		for sub in submissions:
+			if sub.points:
+				points += sub.points
+				total_points += sub.assignment.total_points
+		
+		if total_points == 0:
+			total = 0		
+		else:
+			total = (points/total_points) * 100 
 
-#		if points and total_points:
-#			div = points / total_points
-#		else:
-#			div = 0
-		student_submission_total.add(points)
+		scored_points_list.append(total)
+		student_list.append(student.email) 
 
+#	print("student points list = {0}".format(scored_points_list))
+#	print("student list = {0}".format(student_list))	
 	courses = Course.objects.all()
 	context = {	
-	    "students": students,
-	    "total": student_submission_total,
+		"students": student_list,
+		"total": scored_points_list,
 		"id": cid,	
 	}
 

@@ -16,7 +16,7 @@
                      				<h3><a href='{{ obj.get_absolute_url }}'>{{ obj.course_code }}</a></h3>
                      				<p>{{ obj.course_title }}</p>
                      			</div>
-                     	    </div>
+                     	       </div>
                             </div>
               	      {% endfor %}
               	</div>
@@ -25,16 +25,18 @@
                             <table class="table">
                             <thead>
                             <tr>
-                                   <th scope="col">ToDo</th>
+                                   <th scope="col">ToDo<small><i>Course</i></small></small></th>
                                    <th scope="col">Due Date</th>
                             </tr>
                             </thead>
                             <tbody>
                                    {% for obj in todo %}
+                                   {% if obj.is_past_due == False %}
                                    <tr>
-                                   <td><a href=''>{{ obj.title }}</a></td>
+                                   <td><a href='{% url "courses:assignments:assignment_detail" cid=obj.course.id aid=obj.id %}'>{{ obj.title }}</a><small><i>{{ obj.course.course_code }}</i></small></td>
                                    <td>{{ obj.due_date }}</td>
                                    </tr>
+                                   {% endif %}
                                    {% endfor %}
                             </tbody>
                             </table>

@@ -1,12 +1,12 @@
 from django.db import models
 from django.conf import settings
-from assignments.models import Assignment
+#from assignments.models import Assignment
 from django.core.urlresolvers import reverse
 
 #User = settings.AUTH_USER_MODEL
 # Create your models here.
 class Course(models.Model):
-    assignments = models.ManyToManyField(Assignment, blank=True)
+    #assignments = models.ManyToManyField(Assignment, blank=True)
     course_code = models.CharField(max_length=120)
     course_title = models.CharField(max_length=120)
     course_description = models.TextField(blank=True)

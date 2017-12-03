@@ -7,7 +7,8 @@ from .forms import AssignmentForm
 # Create your views here.
 def assignment_home(request, cid=None):
 	course = Course(id=cid)
-	all_assignment = course.assignments.all().order_by('due_date')
+	all_assignment = Assignment.objects.all().filter(course__id=cid).order_by('due_date')
+	#all_assignment = course.assignments.all().order_by('due_date')
 	upcoming_assignment = set()
 	overdue_assignment = set()
 	for c in all_assignment:
@@ -54,14 +55,13 @@ def assignment_detail(request, cid=None, aid=None):
 	return render(request, "assignment/assignment_detail.html", context)
 
 def assignment_submitted(request, cid=None):
-	#form = LoginForm(request.POST or None)
-	#user = User(id=request.user.id)
-	course = Course(id=cid)
-	queryset = course.assignments.all().order_by('due_date')
+	#course = Course(id=cid)
+	queryset = Assignment.objects.all().filter(course__id=cid).order_by('due_date')
+	#queryset = course.assignments.all().order_by('due_date')
 
 	context = {
 		"object_list": queryset,
-		"id": course.id,
+		"id": cid,
 	}
 	return render(request, "assignment/assignments_submitted.html", context)
 
@@ -69,10 +69,12 @@ def assignment_create(request, cid=None):
 	if request.method=="POST":
 		form = AssignmentForm(request.POST or None, request.FILES or None)
 		if form.is_valid():
-			instance = form.save()
-			course = Course.objects.get(id=cid)
-			course.assignments.add(instance)
-			course.save()
+			instance = form.save(commit=False)
+			instance.course = Course.objects.get(id=cid)
+			#course = Course.objects.get(id=cid)
+			#course.assignments.add(instance)
+			#course.save()
+			instance.save()
 			return redirect("courses:assignments:assignment_home", cid=cid)
 	else: 
 		form = AssignmentForm(None)
