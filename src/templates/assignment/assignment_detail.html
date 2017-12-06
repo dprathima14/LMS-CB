@@ -17,7 +17,7 @@
 			{% endif %}
 			</b></h4>
 			{% if request.user.is_staff == False %}
-				<a href="{% url 'courses:submissions:submit_assignment' cid=id aid=instance.id %}"><button type="button" class="btn btn-default"><i class="fa fa-check-square-o" aria-hidden="true"></i>Submit assignment</button></a>
+				<a href="{% url 'courses:submissions:submit_assignment' cid=id aid=instance.id %}"><button type="button" class="btn btn-default"><i class="fa fa-plus-square" aria-hidden="true"></i>Submit assignment</button></a>
 			{% endif %}
 		</div>
 	</main>

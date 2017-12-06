@@ -12,6 +12,7 @@ def submission_list(request, cid=None, aid=None):
 	if request.method == "POST":
 		instance = Submission.objects.get(id=request.POST.get('sid'))
 		instance.points = request.POST.get('points')
+		instance.comments = request.POST.get('comments')
 		if int(instance.points) > int(instance.assignment.total_points):
 			instance.points = instance.assignment.total_points
 		instance.save()
@@ -58,8 +59,15 @@ def submit_assignment(request, cid=None, aid=None):
 
 def student_grade(request, cid=None):
 	submissions = Submission.objects.all().filter(course__id=cid, user__id=request.user.id)
-	points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(sum=Sum('points'))['sum']
-	total_points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(total=Sum('total_points'))['total']
+	points = 0
+	total_points = 0
+	for sub in submissions:
+		if sub.points:
+			points += sub.points
+			total_points += sub.assignment.total_points
+
+#	points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(sum=Sum('points'))['sum']
+#	total_points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(total=Sum('total_points'))['total']
 	context = {
 		"object_list": submissions,
 		"points": points,

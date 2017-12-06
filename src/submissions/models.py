@@ -14,6 +14,7 @@ class Submission(models.Model):
     points	= models.IntegerField(null=True, blank=True)
     total_points	= models.IntegerField(null=True, blank=True)
     comments = models.TextField(blank=True)
+    updated	= models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return str(self.id)
