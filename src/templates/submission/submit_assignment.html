@@ -9,9 +9,17 @@
 		<div class="content">
 			<h1>Assignment:</h1>
 			<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
-			{{ form|crispy }}
-
+			{% if submission and submission.assignment.is_past_due %}
+			<h4>Points:<small>{{ submission.points }}</small></h4>
+			<h4>Total:<small>{{ submission.assignment.total_points }}</small></h4>
+			<h4>Comments:<small>{{ submission.comments }}</small></h4>
+			<h4>Due Date:<small>{{ submission.assignment.due_date }}</small></h4>
+			<h4>Question:<a href='{{ obj.assignment.question.url }}'><small>{{ submission.assignment.question }}</small></a></h4>
+			<h4>Submission:<a href='{{ obj.submission.url }}'><small>{{ submission.submission }}</small></a></h4>
+			{% else %}
+			<b>{{ form|crispy }}</b>
 			<input class='btn btn-default' type='submit' value='Save' />
+			{% endif %}
 
 			</form>
 		</div>

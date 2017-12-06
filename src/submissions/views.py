@@ -51,6 +51,7 @@ def submit_assignment(request, cid=None, aid=None):
 		else: 
 			form = SubmissionForm(request.POST or None, request.FILES or None)
 	context = {
+		"submission": submission,
 		"form": form,
 		"id": cid,
 	}

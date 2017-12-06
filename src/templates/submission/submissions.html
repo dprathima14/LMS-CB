@@ -11,7 +11,6 @@
 				    <tr>
 				      <th scope="col">Student</th>
 				      <th scope="col">submission</th>
-				      <th scope="col">Updated Time</th>
 				      <th scope="col">Due Date</th>
 				      <th scope="col">total points</th>		      
 				      <th scope="col">points</th>
@@ -28,7 +27,6 @@
 					      {% else %}
 					      	<td></td>
 					      {% endif %}
-					      <td>{{ obj.updated }}</td>
 					      <td>{{ obj.assignment.due_date }}</td>
 					      <td>{{ obj.assignment.total_points }}</td>
 					      <form action='' method='POST'>{% csrf_token %}
