@@ -62,13 +62,16 @@ def student_grade(request, cid=None):
 	submissions = Submission.objects.all().filter(course__id=cid, user__id=request.user.id)
 	points = 0
 	total_points = 0
+
+	assignments = Assignment.objects.all().filter(course__id=cid)
+	for assignment in assignments:
+		if assignment.is_past_due():
+			total_points += assignment.total_points
+
 	for sub in submissions:
 		if sub.points:
 			points += sub.points
-			total_points += sub.assignment.total_points
 
-#	points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(sum=Sum('points'))['sum']
-#	total_points = Submission.objects.all().filter(course__id=cid, user__id=request.user.id).aggregate(total=Sum('total_points'))['total']
 	context = {
 		"object_list": submissions,
 		"points": points,
@@ -80,17 +83,21 @@ def student_grade(request, cid=None):
 
 
 def instructor_grade(request, cid=None):
-	students = User.objects.all().filter(staff=False, courses__id=cid)
+	total_points = 0
 	scored_points_list = []
 	student_list = []
+	students = User.objects.all().filter(staff=False, courses__id=cid)
+	assignments = Assignment.objects.all().filter(course__id=cid)
+	for assignment in assignments:
+		if assignment.is_past_due():
+			total_points += assignment.total_points
+
 	for student in students:
 		submissions = Submission.objects.all().filter(course__id=cid, user__id=student.id)
 		points = 0
-		total_points = 0
 		for sub in submissions:
 			if sub.points:
 				points += sub.points
-				total_points += sub.assignment.total_points
 		
 		if total_points == 0:
 			total = 0		
@@ -100,13 +107,12 @@ def instructor_grade(request, cid=None):
 		scored_points_list.append(total)
 		student_list.append(student.email) 
 
-#	print("student points list = {0}".format(scored_points_list))
+#	print("student points list", total_points)
 #	print("student list = {0}".format(student_list))	
-	courses = Course.objects.all()
+
 	context = {	
 		"students": student_list,
 		"total": scored_points_list,
 		"id": cid,	
 	}
-
 	return render(request, "submission/instructor_grade.html", context)

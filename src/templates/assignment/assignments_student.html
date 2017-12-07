@@ -46,7 +46,7 @@
 		<tbody>
 	       	{% for obj in overdue_assignment %}
 			    <tr>
-			      <td><a href='{% url "courses:assignments:assignment_detail" cid=id aid=obj.id %}'>{{ obj.title }}</a></td>
+			      <td><a href='{% url "courses:submissions:submit_assignment" cid=id aid=obj.id %}'>{{ obj.title }}</a></td>
 			      {% if obj.question %}
 			      	<td>{{ obj.question }}</td>
 			      {% else %}
