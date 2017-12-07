@@ -6,10 +6,11 @@ from accounts.models import User
 from .models import Submission
 from .forms import SubmissionForm
 from django.core.exceptions import ObjectDoesNotExist
+from django.utils import timezone
 
 # Create your views here.
 def submission_list(request, cid=None, aid=None):
-	if request.method == "POST":
+	if request.method == "POST" and request.POST.get('points') != 'None':
 		instance = Submission.objects.get(id=request.POST.get('sid'))
 		instance.points = request.POST.get('points')
 		instance.comments = request.POST.get('comments')
@@ -59,7 +60,7 @@ def submit_assignment(request, cid=None, aid=None):
 	return render(request, "submission/submit_assignment.html", context)
 
 def student_grade(request, cid=None):
-	submissions = Submission.objects.all().filter(course__id=cid, user__id=request.user.id)
+	submissions = Submission.objects.all().filter(course__id=cid, user__id=request.user.id, assignment__due_date__lte=timezone.now())
 	points = 0
 	total_points = 0
 
