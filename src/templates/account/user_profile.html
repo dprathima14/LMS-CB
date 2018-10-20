@@ -1,7 +1,8 @@
 {% extends "base_navbar.html" %}
 {% block head_title %}User Profile | {{ block.super }}{% endblock %}
 {% block content %}
-<div class="container-fluid">
+<div class="modal-body row">
+	<div class="col-md-9">
 	<div class="content">
 	<h1>Name: {{ name }}</h1>
 	<div> 
@@ -15,5 +16,6 @@
 		{% endfor %}
 	</div>
 	</div>
+</div>
 </div>
 {% endblock %}

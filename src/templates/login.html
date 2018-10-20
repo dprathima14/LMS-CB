@@ -5,33 +5,83 @@
     <style>
     .landing_page {
         text-align: center;
-        background: url('{% static "img/CB_test2.jpg" %}') no-repeat center center;
+        background: url('{% static "img/ChalkBox_landingpage.jpg" %}') no-repeat center center;
+        /*background-image: -webkit-gradient(linear,left top,left bottom,from(#605f6b),to(#9a98a7));*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 100vh;
+        min-height: 90vh;
     }
 
  	.description {
-    padding-top: 20%;
-    padding-left: 60%;
+    padding-top: 15%;
+    padding-left: 70%;
     font-family: 'Quicksand', 'Raleway', Arial, Helvetica, sans-serif;
 	}
     </style>
 {% endblock %}
 {% block content %}
+<!--div class="landing_page">
+    <div class="container">
+        <div class="description">
+            <p>Enhance your skills</p>
+            <p>with today’s most popular industry certifications</p>
+        </div>
+        <a class="scroll-down" href="#details">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </div>
+</div-->
+
 <div class="landing_page">
     <div class="container">
         <div class="description">
-        		<div style="border: 1px solid #CCC;padding: 45px 45px 45px;background-color: #FFFFF7;">
+        		<div style="border: 1px solid #CCC;padding: 35px 35px 35px;background-color: #f8f8f8;">
         		<form method="post" class="form-signin">
 	        	<h2 class="form-signin-heading">Please sign in</h2>{% csrf_token %}
 	        	{{ form|crispy }}
 
 	        	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 	      		</form>
-	      	</div>
+	      	    </div>
+        </div>
+        <a class="scroll-down" href="#details">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </div>
+</div>
+
+<div id="details">
+    <div class ="container">
+        <h2>What is ChalkBox?</h2>
+        <h3>ChalkBox is a learning management system.</h3>
+        <p>A learning management system (LMS) is a software application for the administration, documentation, tracking, reporting and delivery of educational courses or training programs or learning and development programs.[1] The learning management system concept emerged directly from e-Learning. Learning Management Systems make up the largest segment of the learning system market. 
+        An LMS delivers and manages all types of content, including video, courses, PDFs and documents. Training programs usually include soft skills content as part of their LMS offerings. Learning and Development often utilizes an LMS for compliance and required learning, as well as leadership development. In the education and higher education markets, an LMS will include a variety of functionality that is similar to corporate but will have features such as Rubrics, teacher and instructor facilitated learning, a discussion board and often the use of a syllabus.
+        </p>
+        </br>
+        <h2>What does it offer?</h2>
+        </br>
+
+        <div id="slider" data-slideshow="data-slideshow"><a class="next" href="#"></a><a class="prev" href="#"></a>
+            <div class="items">
+                <ul>
+                    <li><a href="javascript:void(0)"><i class="fa fa-calendar-check-o fa-5x" style="color:#337ab7" aria-hidden="true"></i>Free Demo</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-users fa-5x" style="color:#337ab7" aria-hidden="true"></i>Class room Training</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-laptop fa-5x" style="color:#337ab7" aria-hidden="true"></i>Online Training</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-file-text-o fa-5x" style="color:#337ab7" aria-hidden="true"></i>Resume &amp; Interview Preparation</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-sitemap fa-5x" style="color:#337ab7" aria-hidden="true"></i>Real Time Project Training</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-window-restore fa-5x" style="color:#337ab7" aria-hidden="true"></i>Hands on practical Training</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-black-tie fa-5x" style="color:#337ab7" aria-hidden="true"></i>Experienced Professional Trainers</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-handshake-o fa-5x" style="color:#337ab7" aria-hidden="true"></i>Best Training Practices
+                    <ul>
+                        <!--li>discussion sessions with trainers</li-->
+                        <li>Practical sessions</li>
+                        <li>Minimum Batch size</li>
+                        <li>Case Studies</li>
+                    </ul></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

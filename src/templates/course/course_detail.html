@@ -1,16 +1,20 @@
 {% extends "base_navbar.html" %}
 {% block head_title %}Course Detail | {{ block.super }}{% endblock %}
 {% block content %}        
-<div class="container-fluid">
+<!--div class="container-fluid"-->
+<div class="modal-body row">
+	
 	{% include "side_bar.html" with cid=instance.id %}
-    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-2">
-    	<div class="content">
+    <!--main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-2"-->
+    <div class="col-md-9">
+    	<!--div class="content"-->
 		<h1><a href=''>{{ instance.course_code }}</a> <small>{{ instance.course_title }}</small></h1>
 			<div>
 				<h3>Description:</h3>
 				<p>{{ instance.course_description | linebreaks }}</p>
 			</div>      
-		</div>
-    </main>
+		<!--/div-->
+	</div>
+    <!--/main-->
 </div>
 {% endblock %}

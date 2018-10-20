@@ -2,9 +2,9 @@
 {% block head_title %}Assignment Detail | {{ block.super }}{% endblock %}
 {% block content %}
 
-<div class="container-fluid">
+<div class="modal-body row">
    {% include "side_bar.html" with cid=id %}
-	<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-2">
+	<div class="col-md-9">
 		<div class="content">
 			<h1>{{instance.title}}</h1>
 			<h4><b>Due_date:</b> {{instance.due_date}}</h4>
@@ -20,6 +20,6 @@
 				<a href="{% url 'courses:submissions:submit_assignment' cid=id aid=instance.id %}"><button type="button" class="btn btn-default"><i class="fa fa-plus-square" aria-hidden="true"></i>Submit assignment</button></a>
 			{% endif %}
 		</div>
-	</main>
+	</div>
 </div>
 {% endblock %}

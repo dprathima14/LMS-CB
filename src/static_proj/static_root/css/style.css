@@ -1,0 +1,175 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#details {
+  /*font: 100 20px 'Quicksand', sans-serif;*/
+  font-size: 18px;
+  min-height: 100vh;
+  background: linear-gradient(to right bottom, #f8f8f8, #ffffff) 0 0 no-repeat;
+  border-bottom: 1px solid #EEE;
+  color: #444;
+}
+
+main {
+  max-width: 1140px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 0 auto;
+  padding: 70px;
+}
+#slider {
+  position: relative;
+}
+#slider .next,
+#slider .prev {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: transparent;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+#slider .next:hover,
+#slider .prev:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.3);
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+#slider .next:before,
+#slider .prev:before {
+  content: ' ';
+  display: block;
+  border: 8px solid transparent;
+}
+#slider .next {
+  right: -60px;
+}
+#slider .next:before {
+  margin-right: -10px;
+  border-left-color: #000000;
+}
+#slider.atEnd .next {
+  display: none;
+}
+#slider .prev {
+  left: -60px;
+}
+#slider .prev:before {
+  margin-left: -10px;
+  border-right-color: #000000;
+}
+#slider.atBeg .prev {
+  display: none;
+}
+#slider .items {
+  overflow: hidden;
+}
+#slider .items > ul,
+#slider .items > ul > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#slider .items > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#slider .items > ul > li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+@media (max-width: 950px) {
+  #slider .items > ul > li {
+    -ms-flex-preferred-size: 33.3333%;
+        flex-basis: 33.3333%;
+  }
+}
+@media (max-width: 800px) {
+  #slider .items > ul > li {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+@media (max-width: 550px) {
+  #slider .items > ul > li {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+#slider .items > ul > li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 150px;
+  background: rgba(0,0,0,0.1);
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+#slider .items > ul > li a:hover {
+  background: rgba(0,0,0,0.2);
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}

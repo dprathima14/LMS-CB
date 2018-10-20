@@ -10,8 +10,8 @@
                      <div class="row">
               		{% for obj in object_list %}
               		<div class="col-sm-6 col-md-4">
-                     		<div class="thumbnail">
-                     			<img src="{% static 'img/book.jpg' %}" alt>
+                     		<div class="img-thumbnail">
+                     			<img src="{% static 'img/book.jpg' %}" class="img-thumbnail">
                      			<div class="caption">
                      				<h3><a href='{{ obj.get_absolute_url }}'>{{ obj.course_code }}</a></h3>
                      				<p>{{ obj.course_title }}</p>

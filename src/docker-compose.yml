@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python:
+    image: python:2.7
+    volumes:
+      - .:/src
+    ports:
+      - "8000:8000"
+    command: bash -c "cd ./src && pip install --upgrade pip && pip install -r requirements.txt && python manage.py runserver 0.0.0.0:8000"
