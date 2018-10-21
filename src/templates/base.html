@@ -6,8 +6,7 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 				<meta name="description" content="">
 				<meta name="author" content="">
-				<link rel="icon" type="image/ico" href="/static/img/ABI_icon.ico" />
-				<!--link rel="icon" type="image/ico" href="/static/img/logo.png" /-->
+				<link rel="icon" type="image/ico" href="/static/img/logo.png" />
 				<title>{% block head_title %}ChalkBox{% endblock %}</title>
 			
 				{% include 'head_css.html' %}
@@ -17,21 +16,20 @@
 		</head>
 
 		<body>
-				<header>
-						<nav class="navbar navbar-default navbar-static-top">
-								        <div class="navbar-header col-md-6">
-								        	<a class="navbar-brand" href='{% url "home" %}'><img src="{% static 'img/CB.png' %}" /></a>
-								        </div>
-								{% block navbar %}
-									
-								{% endblock %}
+			<header>
+				<nav class="navbar navbar-default navbar-static-top">
+					<div class="navbar-header">
+					    <a class="navbar-brand" href='{% url "home" %}'><img src="{% static 'img/CBtemp.png' %}" /></a>
+					</div>
+					{% block navbar %}
+					{% endblock %}
 
-						</nav>
-				</header>
+				</nav>
+			</header>
 
-				{% block content %}
+			{% block content %}
 
-				{% endblock %}
+			{% endblock %}
 
 
 				<!--footer class="footer">

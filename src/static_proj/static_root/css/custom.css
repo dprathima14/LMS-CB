@@ -19,7 +19,7 @@
 }
 
 .light {
-    background-color: #fbfbfb !important; */
+    background-color: #fbfbfb !important; 
 }
 
 html {
@@ -30,8 +30,12 @@ html {
     overflow-x: hidden;
 }
 
+modal-body {
+	min-height: 100vh !important;
+}
+
 body {
-	min-height: 100%;
+	  min-height: 100% !important;
     font-family: 'Quicksand', 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
@@ -42,10 +46,6 @@ body {
 
 li {float: left;
 list-style:none;
-}
-   
-.navbar-static-top {
-  margin-bottom: 0px;
 }
 
 .navbar-nav {
