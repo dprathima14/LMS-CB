@@ -84,7 +84,7 @@ def student_grade(request, cid=None):
 
 
 def instructor_grade(request, cid=None):
-	total_points = 0
+	total_points = 0.0
 	scored_points_list = []
 	student_list = []
 	students = User.objects.all().filter(staff=False, courses__id=cid)
@@ -95,13 +95,13 @@ def instructor_grade(request, cid=None):
 
 	for student in students:
 		submissions = Submission.objects.all().filter(course__id=cid, user__id=student.id)
-		points = 0
+		points = 0.0
 		for sub in submissions:
 			if sub.points:
 				points += sub.points
 		
-		if total_points == 0:
-			total = 0		
+		if total_points == 0.0:
+			total = 0.0		
 		else:
 			total = (points/total_points) * 100 
 
